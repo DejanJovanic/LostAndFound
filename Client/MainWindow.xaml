@@ -1,0 +1,52 @@
+﻿<Window x:Class="Client.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Client"
+        xmlns:viewModel="clr-namespace:Client.ViewModel"
+        xmlns:view="clr-namespace:Client.View"
+       xmlns:z="http://schemas.microsoft.com/expression/2010/interactivity"
+        xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+        
+        mc:Ignorable="d"
+        Title="Lost and found" Height="450" Width="1000"
+        Background="{DynamicResource MaterialDesignPaper}"
+        TextElement.Foreground="{DynamicResource MaterialDesignBody}">
+    <Window.DataContext>
+        <viewModel:MainWindowViewModel/>
+    </Window.DataContext>
+    <Window.Resources>
+        <DataTemplate DataType = "{x:Type viewModel:LoginViewModel}">
+            <view:LoginView/>
+        </DataTemplate>
+        <DataTemplate DataType = "{x:Type viewModel:MainViewModel}">
+            <view:MainView/>
+        </DataTemplate>
+        <DataTemplate DataType = "{x:Type viewModel:ItemsViewModel}">
+            <view:ItemsView/>
+        </DataTemplate>
+        <DataTemplate DataType = "{x:Type viewModel:PersonsViewModel}">
+            <view:PersonsView/>
+        </DataTemplate>
+        <DataTemplate DataType = "{x:Type viewModel:PersonsAdminViewModel}">
+            <view:PersonsAdminView/>
+        </DataTemplate>
+        <DataTemplate DataType = "{x:Type viewModel:LogViewModel}">
+            <view:LogView/>
+        </DataTemplate>
+    </Window.Resources>
+    <Grid>
+       
+            <Grid>
+                <ContentControl Content="{Binding CurrentViewModel}"/>
+            </Grid>
+        <DockPanel VerticalAlignment="Bottom">
+            <materialDesign:Snackbar MessageQueue="{Binding SnackbarQueue}" />
+        </DockPanel>
+
+
+
+
+    </Grid>
+</Window>

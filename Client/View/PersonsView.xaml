@@ -1,0 +1,51 @@
+﻿<UserControl x:Class="Client.View.PersonsView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:Client.View"
+             xmlns:vm="clr-namespace:Client.ViewModel"
+             xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+             mc:Ignorable="d" 
+             d:DesignHeight="450" d:DesignWidth="1000">
+    <UserControl.Resources>
+        <vm:BoolToString x:Key="boolToString"/>
+        <vm:BoolToVisibility x:Key="boolToVisibility"/>
+    </UserControl.Resources>
+    <StackPanel Orientation="Vertical">
+        <DockPanel HorizontalAlignment="Stretch">
+            <Button DockPanel.Dock="Left" HorizontalAlignment="Left"  VerticalAlignment="Center" Command="{Binding EditPersonCommand}"   Width="135" Content="Update account"/>
+        </DockPanel>
+        <DataGrid ItemsSource="{Binding Persons}"
+                      CanUserSortColumns="True"
+  CanUserAddRows="False"
+  AutoGenerateColumns="False"
+                  VerticalScrollBarVisibility="Auto"
+                  Height="300"
+  materialDesign:DataGridAssist.CellPadding="13 8 8 8"
+  materialDesign:DataGridAssist.ColumnHeaderPadding="8" IsReadOnly="True">
+            <DataGrid.Columns>
+                <materialDesign:MaterialDataGridTextColumn
+      Binding="{Binding Username}"
+      Header="Username"
+      MaxLength="255" />
+
+                <materialDesign:MaterialDataGridTextColumn
+      Binding="{Binding Name}"
+      Header="Name"
+      MaxLength="255"
+    />
+                <materialDesign:MaterialDataGridTextColumn
+      Binding="{Binding LastName}"
+      Header="Last name"
+      MaxLength="255"
+  />
+                <materialDesign:MaterialDataGridTextColumn
+      Binding="{Binding IsAdmin, Converter={StaticResource boolToString}}"
+      Header="User type"
+      MaxLength="255"
+  />
+            </DataGrid.Columns>
+        </DataGrid>
+    </StackPanel>
+</UserControl>

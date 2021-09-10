@@ -1,0 +1,842 @@
+2019-08-24 19:13:34,750 [1] INFO Server.Program - Default admin is already in database
+2019-08-24 19:13:35,356 [1] INFO Server.Program - Service successfully started
+2019-08-24 19:16:45,126 [1] INFO Server.Program - Default admin is already in database
+2019-08-24 19:16:45,639 [1] INFO Server.Program - Service successfully started
+2019-08-24 19:17:12,773 [9] INFO Server.LoginService - User with username: Admin has successfully logged in
+2019-08-24 19:22:02,074 [1] INFO Server.Program - Default admin is already in database
+2019-08-24 19:22:02,563 [1] INFO Server.Program - Service successfully started
+2019-08-24 19:22:31,685 [8] INFO Server.LoginService - User with username: Admin has successfully logged in
+2019-08-24 19:23:03,040 [7] INFO Server.Database.UsersRepo - Admin with username: Admin successfully added user dejan as Regular user
+2019-08-24 19:23:03,096 [7] INFO Server.CurrentConnectionOperations - Updating users with user-changing data
+2019-08-24 19:23:03,149 [7] INFO Server.UserService - Person with username dejan successfully added to database
+2019-08-24 19:23:23,344 [17] INFO Server.LoginService - User with username: dejan has successfully logged in
+2019-08-24 19:23:39,963 [16] INFO Server.Database.DataRepo - Successfully added item with id: 4
+2019-08-24 19:23:39,966 [16] INFO Server.CurrentConnectionOperations - Updating users with item-changing data
+2019-08-24 19:23:39,993 [16] INFO Server.DataService - Item with id: 4 is successfully added to database
+2019-08-24 19:23:49,651 [16] INFO Server.Database.DataRepo - Item with id: 4 updated
+2019-08-24 19:23:49,710 [16] INFO Server.CurrentConnectionOperations - Updating users with item-changing data
+2019-08-24 19:23:49,746 [16] INFO Server.DataService - Item with id: 4 is successfully updated in database
+2019-08-24 19:23:58,804 [16] INFO Server.Database.UsersRepo - Admin with username: Admin successfully deleted user dejan
+2019-08-24 19:23:58,805 [16] INFO Server.CurrentConnectionOperations - Updating users with user-changing data
+2019-08-24 19:23:58,807 [16] INFO Server.UserService - Person with username dejan successfully removed from database
+2019-08-24 19:24:05,029 [8] ERROR Server.DataService - Invalid item data supplied for addition
+2019-08-24 19:25:25,890 [8] ERROR Server.DataService - Invalid item data supplied for addition
+2019-08-24 19:25:54,225 [14] ERROR Server.DataService - Invalid item data supplied for addition
+2019-08-24 19:27:53,409 [18] ERROR Server.DataService - Invalid item data supplied for addition
+2019-08-24 19:28:55,128 [24] ERROR Server.DataService - Invalid item data supplied for addition
+2019-08-24 19:31:36,185 [26] ERROR Server.DataService - Invalid item data supplied for addition
+2019-08-24 19:33:12,024 [1] INFO Server.Program - Default admin is already in database
+2019-08-24 19:33:12,456 [1] INFO Server.Program - Service successfully started
+2019-08-24 19:33:41,938 [8] INFO Server.LoginService - User with username: Admin has successfully logged in
+2019-08-24 19:40:22,476 [1] INFO Server.Program - Default admin is already in database
+2019-08-24 19:40:23,165 [1] INFO Server.Program - Service successfully started
+2019-08-24 19:41:13,927 [1] INFO Server.Program - Default admin is already in database
+2019-08-24 19:41:14,432 [1] INFO Server.Program - Service successfully started
+2019-08-24 19:42:07,043 [10] INFO Server.LoginService - User with username: Admin has successfully logged in
+2019-08-24 19:42:25,065 [7] INFO Server.LoginService - User with username: Admin has successfully logged out
+2019-08-24 19:42:31,390 [3] INFO Server.LoginService - User with username: Admin has successfully logged in
+2019-08-24 19:42:39,741 [3] ERROR Server.UserService - Invalid person data supplied for remove operation
+2019-08-24 19:43:52,063 [1] INFO Server.Program - Default admin is already in database
+2019-08-24 19:43:52,460 [1] INFO Server.Program - Service successfully started
+2019-08-24 19:44:11,666 [6] INFO Server.LoginService - User with username: Admin has successfully logged in
+2019-08-24 19:45:34,698 [1] INFO Server.Program - Default admin is already in database
+2019-08-24 19:45:35,107 [1] INFO Server.Program - Service successfully started
+2019-08-24 19:46:12,079 [3] INFO Server.LoginService - User with username: Admin has successfully logged in
+2019-08-24 19:46:30,069 [10] INFO Server.Database.UsersRepo - Admin with username: Admin successfully added user dejan as Regular user
+2019-08-24 19:46:30,138 [10] INFO Server.CurrentConnectionOperations - Updating users with user-changing data
+2019-08-24 19:46:30,179 [10] INFO Server.UserService - Person with username dejan successfully added to database
+2019-08-24 19:46:48,067 [10] INFO Server.LoginService - User with username: dejan has successfully logged in
+2019-08-24 19:47:02,144 [10] INFO Server.Database.DataRepo - Successfully added item with id: 5
+2019-08-24 19:47:02,147 [10] INFO Server.CurrentConnectionOperations - Updating users with item-changing data
+2019-08-24 19:47:02,215 [10] INFO Server.DataService - Item with id: 5 is successfully added to database
+2019-08-24 19:47:32,141 [10] INFO Server.Database.DataRepo - Item with id: 5 updated
+2019-08-24 19:47:41,506 [10] INFO Server.CurrentConnectionOperations - Updating users with item-changing data
+2019-08-24 19:47:41,558 [10] INFO Server.DataService - Item with id: 5 is successfully updated in database
+2019-08-24 19:49:20,865 [10] INFO Server.Database.UsersRepo - Admin with username: Admin successfully deleted user dejan
+2019-08-24 19:49:24,982 [10] INFO Server.CurrentConnectionOperations - Updating users with user-changing data
+2019-08-24 19:49:25,008 [10] INFO Server.UserService - Person with username dejan successfully removed from database
+2019-08-24 19:52:31,980 [1] INFO Server.Program - Default admin is already in database
+2019-08-24 19:52:32,528 [1] INFO Server.Program - Service successfully started
+2019-08-24 19:53:14,593 [7] INFO Server.LoginService - User with username: Admin has successfully logged in
+2019-08-24 19:53:34,656 [10] INFO Server.Database.UsersRepo - Admin with username: Admin successfully added user aaa as Regular user
+2019-08-24 19:53:34,742 [10] INFO Server.CurrentConnectionOperations - Updating users with user-changing data
+2019-08-24 19:53:34,782 [10] INFO Server.UserService - Person with username aaa successfully added to database
+2019-08-24 19:53:50,164 [16] INFO Server.LoginService - User with username: aaa has successfully logged in
+2019-08-24 19:54:05,917 [6] INFO Server.Database.DataRepo - Successfully added item with id: 6
+2019-08-24 19:54:05,920 [6] INFO Server.CurrentConnectionOperations - Updating users with item-changing data
+2019-08-24 19:54:05,948 [6] INFO Server.DataService - Item with id: 6 is successfully added to database
+2019-08-24 19:54:18,338 [6] INFO Server.Database.DataRepo - Item with id: 6 updated
+2019-08-24 19:54:24,686 [6] INFO Server.CurrentConnectionOperations - Updating users with item-changing data
+2019-08-24 19:54:24,744 [6] INFO Server.DataService - Item with id: 6 is successfully updated in database
+2019-08-24 19:54:36,830 [17] INFO Server.Database.UsersRepo - Admin with username: Admin successfully deleted user aaa
+2019-08-24 19:54:36,834 [17] INFO Server.CurrentConnectionOperations - Updating users with user-changing data
+2019-08-24 19:54:36,887 [17] INFO Server.UserService - Person with username aaa successfully removed from database
+2019-08-24 19:55:21,122 [5] INFO Server.Database.UsersRepo - Admin with username: Admin successfully added user aaaa as Regular user
+2019-08-24 19:55:21,174 [5] INFO Server.CurrentConnectionOperations - Updating users with user-changing data
+2019-08-24 19:55:21,208 [5] INFO Server.UserService - Person with username aaaa successfully added to database
+2019-08-24 19:55:27,812 [19] INFO Server.LoginService - User with username: aaaa has successfully logged in
+2019-08-25 10:50:05,427 [1] INFO Server.Program - Default admin is already in database
+2019-08-25 10:50:07,260 [1] INFO Server.Program - Service successfully started
+2019-08-25 10:52:08,568 [1] INFO Server.Program - Default admin is already in database
+2019-08-25 10:52:09,348 [1] INFO Server.Program - Service successfully started
+2019-08-25 10:53:51,820 [7] INFO Server.LoginService - User with username: Admin has successfully logged in
+2019-08-25 11:02:29,305 [1] INFO Server.Program - Default admin is already in database
+2019-08-25 11:02:30,778 [1] INFO Server.Program - Service successfully started
+2019-08-25 11:03:00,477 [6] INFO Server.LoginService - User with username: Admin has successfully logged in
+2019-08-25 11:03:54,159 [1] INFO Server.Program - Default admin is already in database
+2019-08-25 11:03:54,749 [1] INFO Server.Program - Service successfully started
+2019-08-25 11:04:36,310 [8] INFO Server.LoginService - User with username: Admin has successfully logged in
+2019-08-25 11:07:28,757 [1] INFO Server.Program - Default admin is already in database
+2019-08-25 11:07:29,324 [1] INFO Server.Program - Service successfully started
+2019-08-25 11:07:59,145 [9] INFO Server.LoginService - User with username: Admin has successfully logged in
+2019-08-25 11:09:59,612 [1] INFO Server.Program - Default admin is already in database
+2019-08-25 11:10:00,076 [1] INFO Server.Program - Service successfully started
+2019-08-25 11:10:41,549 [9] INFO Server.LoginService - User with username: Admin has successfully logged in
+2019-08-25 11:13:25,823 [1] INFO Server.Program - Default admin is already in database
+2019-08-25 11:13:26,210 [1] INFO Server.Program - Service successfully started
+2019-08-25 11:13:52,621 [6] INFO Server.LoginService - User with username: Admin has successfully logged in
+2019-08-25 11:21:45,507 [1] INFO Server.Program - Default admin is already in database
+2019-08-25 11:21:46,461 [1] INFO Server.Program - Service successfully started
+2019-08-25 11:23:24,634 [1] INFO Server.Program - Default admin is already in database
+2019-08-25 11:23:25,049 [1] INFO Server.Program - Service successfully started
+2019-08-25 11:23:54,360 [8] INFO Server.LoginService - User with username: Admin has successfully logged in
+2019-08-25 11:28:04,547 [1] INFO Server.Program - Default admin is already in database
+2019-08-25 11:28:05,023 [1] INFO Server.Program - Service successfully started
+2019-08-25 11:35:15,817 [8] INFO Server.LoginService - User with username: Admin has successfully logged in
+2019-08-25 11:38:44,199 [1] INFO Server.Program - Default admin is already in database
+2019-08-25 11:38:44,587 [1] INFO Server.Program - Service successfully started
+2019-08-25 11:39:16,266 [8] INFO Server.LoginService - User with username: Admin has successfully logged in
+2019-08-25 13:06:08,439 [1] INFO Server.Program - Default admin is already in database
+2019-08-25 13:06:09,725 [1] INFO Server.Program - Service successfully started
+2019-08-25 13:07:37,750 [6] INFO Server.LoginService - User with username: Admin has successfully logged in
+2019-08-25 13:08:54,411 [9] INFO Server.Database.DataRepo - Successfully added item with id: 7
+2019-08-25 13:08:54,417 [9] INFO Server.CurrentConnectionOperations - Updating users with item-changing data
+2019-08-25 13:08:54,459 [9] INFO Server.DataService - Item with id: 7 is successfully added to database
+2019-08-25 13:08:56,998 [9] INFO Server.Database.DataRepo - Item with id: 7 deleted
+2019-08-25 13:08:56,999 [9] INFO Server.CurrentConnectionOperations - Updating users with item-changing data
+2019-08-25 13:08:57,013 [9] INFO Server.DataService - Item with id: 7 is successfully removed to database
+2019-08-25 13:47:27,212 [1] INFO Server.Program - Default admin is already in database
+2019-08-25 13:50:55,591 [1] INFO Server.Program - Default admin is already in database
+2019-08-25 13:50:56,505 [1] INFO Server.Program - Service successfully started
+2019-08-25 13:52:06,112 [3] INFO Server.LoginService - User with username: Admin has successfully logged in
+2019-08-25 13:53:01,981 [10] INFO Server.Database.DataRepo - Successfully added item with id: 8
+2019-08-25 13:53:01,990 [10] INFO Server.CurrentConnectionOperations - Updating users with item-changing data
+2019-08-25 13:53:02,077 [10] INFO Server.DataService - Item with id: 8 is successfully added to database
+2019-08-25 13:53:08,652 [9] INFO Server.Database.DataRepo - Item with id: 8 deleted
+2019-08-25 13:53:08,653 [9] INFO Server.CurrentConnectionOperations - Updating users with item-changing data
+2019-08-25 13:53:08,714 [9] INFO Server.DataService - Item with id: 8 is successfully removed to database
+2019-08-25 13:53:10,219 [10] INFO Server.Database.DataRepo - Successfully added item with id: 9
+2019-08-25 13:53:10,220 [10] INFO Server.CurrentConnectionOperations - Updating users with item-changing data
+2019-08-25 13:53:10,222 [10] INFO Server.DataService - Item with id: 9 is successfully added to database
+2019-08-25 13:53:11,999 [9] INFO Server.Database.DataRepo - Item with id: 9 deleted
+2019-08-25 13:53:12,001 [9] INFO Server.CurrentConnectionOperations - Updating users with item-changing data
+2019-08-25 13:53:12,044 [9] INFO Server.DataService - Item with id: 9 is successfully removed to database
+2019-08-25 13:53:12,780 [10] INFO Server.Database.DataRepo - Successfully added item with id: 10
+2019-08-25 13:53:12,782 [10] INFO Server.CurrentConnectionOperations - Updating users with item-changing data
+2019-08-25 13:53:12,783 [10] INFO Server.DataService - Item with id: 10 is successfully added to database
+2019-08-25 13:53:49,398 [10] INFO Server.LoginService - User with username: aaaa has successfully logged in
+2019-08-25 13:54:15,375 [10] INFO Server.Database.DataRepo - Item with id: 10 updated
+2019-08-25 13:54:15,470 [10] INFO Server.CurrentConnectionOperations - Updating users with item-changing data
+2019-08-25 13:54:15,500 [10] INFO Server.DataService - Item with id: 10 is successfully updated in database
+2019-08-25 13:54:18,414 [15] INFO Server.Database.DataRepo - Item with id: 10 deleted
+2019-08-25 13:54:18,416 [15] INFO Server.CurrentConnectionOperations - Updating users with item-changing data
+2019-08-25 13:54:18,464 [15] INFO Server.DataService - Item with id: 10 is successfully removed to database
+2019-08-25 13:54:21,967 [10] INFO Server.Database.DataRepo - Successfully added item with id: 11
+2019-08-25 13:54:21,969 [10] INFO Server.CurrentConnectionOperations - Updating users with item-changing data
+2019-08-25 13:54:22,044 [10] INFO Server.DataService - Item with id: 11 is successfully added to database
+2019-08-25 13:57:06,734 [1] INFO Server.Program - Default admin is already in database
+2019-08-25 13:57:07,243 [1] INFO Server.Program - Service successfully started
+2019-08-25 13:57:29,468 [8] INFO Server.LoginService - User with username: Admin has successfully logged in
+2019-08-25 13:57:49,163 [9] INFO Server.LoginService - User with username: aaaa has successfully logged in
+2019-08-25 13:58:37,990 [5] INFO Server.Database.DataRepo - Item with id: 11 updated
+2019-08-25 13:58:38,081 [5] INFO Server.CurrentConnectionOperations - Updating users with item-changing data
+2019-08-25 13:58:38,112 [5] INFO Server.DataService - Item with id: 11 is successfully updated in database
+2019-08-25 14:01:23,891 [6] INFO Server.Database.DataRepo - Item with id: 11 updated
+2019-08-25 14:01:23,941 [6] INFO Server.CurrentConnectionOperations - Updating users with item-changing data
+2019-08-25 14:01:23,969 [6] INFO Server.DataService - Item with id: 11 is successfully updated in database
+2019-08-25 14:04:11,673 [1] INFO Server.Program - Default admin is already in database
+2019-08-25 14:04:12,140 [1] INFO Server.Program - Service successfully started
+2019-08-25 14:04:49,720 [6] INFO Server.LoginService - User with username: Admin has successfully logged in
+2019-08-25 14:08:47,876 [1] INFO Server.Program - Default admin is already in database
+2019-08-25 14:08:49,448 [1] INFO Server.Program - Service successfully started
+2019-08-25 14:55:09,288 [1] INFO Server.Program - Default admin is already in database
+2019-08-25 14:55:09,890 [1] INFO Server.Program - Service successfully started
+2019-08-25 14:56:29,423 [10] INFO Server.LoginService - User with username: Admin has successfully logged in
+2019-08-25 14:56:50,867 [10] INFO Server.LoginService - User with username: aaaa has successfully logged in
+2019-08-25 14:58:17,424 [8] INFO Server.Database.DataRepo - Item with id: 11 deleted
+2019-08-25 14:58:17,430 [8] INFO Server.CurrentConnectionOperations - Updating users with item-changing data
+2019-08-25 14:58:17,454 [8] INFO Server.DataService - Item with id: 11 is successfully removed to database
+2019-08-25 14:58:38,383 [8] ERROR Server.DataService - Conflict achieved when tried to update item with id 11
+2019-08-25 14:59:25,110 [13] INFO Server.Database.DataRepo - Successfully added item with id: 12
+2019-08-25 14:59:25,111 [13] INFO Server.CurrentConnectionOperations - Updating users with item-changing data
+2019-08-25 14:59:25,112 [13] INFO Server.DataService - Item with id: 12 and owner aaaa is successfully added to database
+2019-08-25 15:05:11,946 [1] INFO Server.Database.UsersRepo - Server successfully auto added user Admin as Admin
+2019-08-25 15:05:12,053 [1] INFO Server.Program - Default admin inserted
+2019-08-25 15:05:12,054 [1] INFO Server.Program - Default admin is already in database
+2019-08-25 15:05:12,267 [1] INFO Server.Program - Service successfully started
+2019-08-25 15:05:57,853 [1] INFO Server.Program - Service successfully closed
+2019-08-25 15:19:36,484 [1] INFO Server.Program - Default admin is already in database
+2019-08-25 15:19:37,118 [1] INFO Server.Program - Service successfully started
+2019-08-25 15:21:40,278 [1] INFO Server.Program - Default admin is already in database
+2019-08-25 15:21:40,855 [1] INFO Server.Program - Service successfully started
+2019-08-25 15:22:18,236 [6] INFO Server.LoginService - User with username: Admin has successfully logged in
+2019-08-25 15:22:55,696 [8] INFO Server.Database.UsersRepo - Admin with username: Admin successfully added user aaa as Regular user
+2019-08-25 15:22:55,748 [8] INFO Server.CurrentConnectionOperations - Updating users with user-changing data
+2019-08-25 15:22:55,791 [8] INFO Server.UserService - Person with username aaa successfully added to database
+2019-08-25 15:23:04,741 [11] INFO Server.LoginService - User with username: aaa has successfully logged in
+2019-08-25 15:23:13,719 [8] INFO Server.Database.DataRepo - Successfully added item with id: 1
+2019-08-25 15:23:13,724 [8] INFO Server.CurrentConnectionOperations - Updating users with item-changing data
+2019-08-25 15:23:13,748 [8] INFO Server.DataService - Item with id: 1 is successfully added to database
+2019-08-25 15:23:48,148 [15] INFO Server.Database.DataRepo - Successfully added item with id: 2
+2019-08-25 15:23:48,150 [15] INFO Server.CurrentConnectionOperations - Updating users with item-changing data
+2019-08-25 15:23:48,177 [15] INFO Server.DataService - Item with id: 2 is successfully added to database
+2019-08-25 15:26:02,497 [1] INFO Server.Program - Default admin is already in database
+2019-08-25 15:26:02,956 [1] INFO Server.Program - Service successfully started
+2019-08-25 15:26:22,740 [8] INFO Server.LoginService - User with username: Admin has successfully logged in
+2019-08-25 15:31:15,279 [1] INFO Server.Program - Default admin is already in database
+2019-08-25 15:31:15,676 [1] INFO Server.Program - Service successfully started
+2019-08-25 15:32:02,057 [8] INFO Server.LoginService - User with username: Admin has successfully logged in
+2019-08-25 15:32:15,785 [10] INFO Server.Database.DataRepo - Item with id: 2 deleted
+2019-08-25 15:32:15,791 [10] INFO Server.CurrentConnectionOperations - Updating users with item-changing data
+2019-08-25 15:32:15,898 [10] INFO Server.DataService - Item with id: 2 is successfully removed to database
+2019-08-25 15:32:43,321 [10] INFO Server.LoginService - User with username: aaa has successfully logged in
+2019-08-25 15:32:54,908 [10] INFO Server.Database.DataRepo - Successfully added item with id: 3
+2019-08-25 15:32:54,909 [10] INFO Server.CurrentConnectionOperations - Updating users with item-changing data
+2019-08-25 15:32:54,982 [10] INFO Server.DataService - Item with id: 3 is successfully added to database
+2019-08-25 15:33:12,480 [7] INFO Server.Database.DataRepo - Item with id: 3 updated
+2019-08-25 15:33:12,642 [7] INFO Server.CurrentConnectionOperations - Updating users with item-changing data
+2019-08-25 15:33:12,643 [7] INFO Server.DataService - Item with id: 3 is successfully updated in database
+2019-08-25 15:34:31,020 [17] INFO Server.Database.DataRepo - Item with id: 3 updated
+2019-08-25 15:36:08,241 [1] INFO Server.Program - Default admin is already in database
+2019-08-25 15:36:08,690 [1] INFO Server.Program - Service successfully started
+2019-08-25 15:36:27,276 [7] INFO Server.LoginService - User with username: Admin has successfully logged in
+2019-08-25 15:36:39,019 [7] INFO Server.LoginService - User with username: aaa has successfully logged in
+2019-08-25 15:37:26,494 [7] INFO Server.Database.DataRepo - Successfully added item with id: 4
+2019-08-25 15:37:26,503 [7] INFO Server.CurrentConnectionOperations - Updating users with item-changing data
+2019-08-25 15:37:26,626 [7] INFO Server.DataService - Item with id: 4 is successfully added to database
+2019-08-25 15:38:10,348 [7] INFO Server.Database.DataRepo - Item with id: 4 updated
+2019-08-25 15:38:10,429 [7] INFO Server.CurrentConnectionOperations - Updating users with item-changing data
+2019-08-25 15:38:10,469 [7] INFO Server.DataService - Item with id: 4 is successfully updated in database
+2019-08-25 15:38:26,926 [11] INFO Server.Database.DataRepo - Item with id: 4 deleted
+2019-08-25 15:38:26,927 [11] INFO Server.CurrentConnectionOperations - Updating users with item-changing data
+2019-08-25 15:38:26,928 [11] INFO Server.DataService - Item with id: 4 is successfully removed to database
+2019-08-25 15:39:35,345 [15] INFO Server.Database.DataRepo - Successfully added item with id: 5
+2019-08-25 15:39:35,346 [15] INFO Server.CurrentConnectionOperations - Updating users with item-changing data
+2019-08-25 15:39:35,388 [15] INFO Server.DataService - Item with id: 5 is successfully added to database
+2019-08-25 15:39:48,747 [17] INFO Server.Database.DataRepo - Item with id: 5 updated
+2019-08-25 15:39:48,798 [17] INFO Server.CurrentConnectionOperations - Updating users with item-changing data
+2019-08-25 15:39:48,887 [17] INFO Server.DataService - Item with id: 5 is successfully updated in database
+2019-08-25 15:44:39,565 [1] INFO Server.Program - Default admin is already in database
+2019-08-25 15:44:40,000 [1] INFO Server.Program - Service successfully started
+2019-08-25 15:45:28,613 [7] INFO Server.LoginService - User with username: Admin has successfully logged in
+2019-08-25 15:45:31,655 [8] INFO Server.LoginService - User with username: aaa has successfully logged in
+2019-08-25 15:45:43,688 [9] INFO Server.Database.DataRepo - Successfully added item with id: 6
+2019-08-25 15:45:43,694 [9] INFO Server.CurrentConnectionOperations - Updating users with item-changing data
+2019-08-25 15:45:43,770 [9] INFO Server.DataService - Item with id: 6 is successfully added to database
+2019-08-25 15:46:03,334 [9] INFO Server.Database.DataRepo - Item with id: 6 updated
+2019-08-25 15:46:03,406 [9] INFO Server.CurrentConnectionOperations - Updating users with item-changing data
+2019-08-25 15:46:03,407 [9] INFO Server.DataService - Item with id: 6 is successfully updated in database
+2019-08-25 15:46:20,009 [9] ERROR Server.DataService - Conflict achieved when tried to remove item with id 6
+2019-08-25 15:48:41,200 [1] INFO Server.Program - Default admin is already in database
+2019-08-25 15:48:41,632 [1] INFO Server.Program - Service successfully started
+2019-08-25 15:50:23,830 [8] INFO Server.LoginService - User with username: Admin has successfully logged in
+2019-08-25 15:50:41,089 [8] INFO Server.LoginService - User with username: aaa has successfully logged in
+2019-08-25 15:51:12,663 [8] INFO Server.Database.DataRepo - Item with id: 6 deleted
+2019-08-25 15:51:12,669 [8] INFO Server.CurrentConnectionOperations - Updating users with item-changing data
+2019-08-25 15:51:12,706 [8] INFO Server.DataService - Item with id: 6 is successfully removed to database
+2019-08-25 15:51:37,789 [8] ERROR Server.DataService - Conflict achieved when tried to update item with id 6
+2019-08-25 15:52:17,993 [12] INFO Server.Database.DataRepo - Item with id: 5 deleted
+2019-08-25 15:52:17,995 [12] INFO Server.CurrentConnectionOperations - Updating users with item-changing data
+2019-08-25 15:52:17,996 [12] INFO Server.DataService - Item with id: 5 is successfully removed to database
+2019-08-25 15:52:36,950 [19] ERROR Server.DataService - Conflict achieved when tried to update item with id 5
+2019-08-25 15:54:15,671 [19] INFO Server.Database.DataRepo - Item with id: 3 deleted
+2019-08-25 15:54:15,672 [19] INFO Server.CurrentConnectionOperations - Updating users with item-changing data
+2019-08-25 15:54:15,673 [19] INFO Server.DataService - Item with id: 3 is successfully removed to database
+2019-08-25 15:54:25,719 [22] ERROR Server.DataService - Conflict achieved when tried to update item with id 3
+2019-08-25 15:59:11,522 [1] INFO Server.Program - Default admin is already in database
+2019-08-25 15:59:12,365 [1] INFO Server.Program - Service successfully started
+2019-08-25 15:59:44,852 [9] INFO Server.LoginService - User with username: Admin has successfully logged in
+2019-08-25 16:00:10,451 [8] INFO Server.LoginService - User with username: aaa has successfully logged in
+2019-08-25 16:00:40,527 [8] INFO Server.Database.DataRepo - Item with id: 1 deleted
+2019-08-25 16:00:40,533 [8] INFO Server.CurrentConnectionOperations - Updating users with item-changing data
+2019-08-25 16:00:40,594 [8] INFO Server.DataService - Item with id: 1 is successfully removed to database
+2019-08-25 16:00:51,628 [6] ERROR Server.DataService - Conflict achieved when tried to update item with id 1
+2019-08-25 16:01:09,601 [6] INFO Server.Database.DataRepo - Successfully added item with id: 7
+2019-08-25 16:01:09,602 [6] INFO Server.CurrentConnectionOperations - Updating users with item-changing data
+2019-08-25 16:01:09,628 [6] INFO Server.DataService - Item with id: 7 is successfully added to database
+2019-08-25 16:03:30,131 [1] INFO Server.Program - Default admin is already in database
+2019-08-25 16:03:30,553 [1] INFO Server.Program - Service successfully started
+2019-08-25 16:04:15,963 [7] INFO Server.LoginService - User with username: Admin has successfully logged in
+2019-08-25 16:04:28,105 [7] INFO Server.LoginService - User with username: aaa has successfully logged in
+2019-08-25 16:04:44,157 [8] INFO Server.Database.DataRepo - Successfully added item with id: 8
+2019-08-25 16:04:44,162 [8] INFO Server.CurrentConnectionOperations - Updating users with item-changing data
+2019-08-25 16:04:44,194 [8] INFO Server.DataService - Item with id: 8 is successfully added to database
+2019-08-25 16:04:57,155 [7] INFO Server.Database.DataRepo - Item with id: 8 updated
+2019-08-25 16:04:57,222 [7] INFO Server.CurrentConnectionOperations - Updating users with item-changing data
+2019-08-25 16:04:57,247 [7] INFO Server.DataService - Item with id: 8 is successfully updated in database
+2019-08-25 16:05:17,559 [9] ERROR Server.DataService - Conflict achieved when tried to remove item with id 8
+2019-08-25 16:05:35,690 [7] INFO Server.Database.DataRepo - Item with id: 8 updated
+2019-08-25 16:05:35,740 [7] INFO Server.CurrentConnectionOperations - Updating users with item-changing data
+2019-08-25 16:05:35,760 [7] INFO Server.DataService - Item with id: 8 is successfully updated in database
+2019-08-25 16:06:42,648 [7] INFO Server.Database.DataRepo - Item with id: 8 updated
+2019-08-25 16:06:42,700 [7] INFO Server.CurrentConnectionOperations - Updating users with item-changing data
+2019-08-25 16:06:42,702 [7] INFO Server.DataService - Item with id: 8 is successfully updated in database
+2019-08-25 16:08:20,076 [1] INFO Server.Program - Default admin is already in database
+2019-08-25 16:08:20,507 [1] INFO Server.Program - Service successfully started
+2019-08-25 16:08:51,950 [7] INFO Server.LoginService - User with username: Admin has successfully logged in
+2019-08-25 16:09:09,461 [9] INFO Server.LoginService - User with username: aaa has successfully logged in
+2019-08-25 16:09:29,048 [9] INFO Server.Database.DataRepo - Item with id: 7 updated
+2019-08-25 16:09:29,296 [9] INFO Server.CurrentConnectionOperations - Updating users with item-changing data
+2019-08-25 16:09:29,336 [9] INFO Server.DataService - Item with id: 7 is successfully updated in database
+2019-08-25 16:09:34,182 [9] INFO Server.Database.DataRepo - Item with id: 7 updated
+2019-08-25 16:09:34,264 [9] INFO Server.CurrentConnectionOperations - Updating users with item-changing data
+2019-08-25 16:09:34,292 [9] INFO Server.DataService - Item with id: 7 is successfully updated in database
+2019-08-25 16:10:02,673 [9] INFO Server.Database.DataRepo - Item with id: 7 updated
+2019-08-25 16:10:02,745 [9] INFO Server.CurrentConnectionOperations - Updating users with item-changing data
+2019-08-25 16:10:02,755 [9] INFO Server.DataService - Item with id: 7 is successfully updated in database
+2019-08-25 16:12:03,362 [1] INFO Server.Program - Default admin is already in database
+2019-08-25 16:12:03,740 [1] INFO Server.Program - Service successfully started
+2019-08-25 16:13:08,069 [1] INFO Server.Program - Default admin is already in database
+2019-08-25 16:13:08,533 [1] INFO Server.Program - Service successfully started
+2019-08-25 16:14:22,801 [1] INFO Server.Program - Default admin is already in database
+2019-08-25 16:14:23,228 [1] INFO Server.Program - Service successfully started
+2019-08-25 16:14:53,250 [10] INFO Server.LoginService - User with username: Admin has successfully logged in
+2019-08-25 16:15:20,118 [8] INFO Server.LoginService - User with username: aaa has successfully logged in
+2019-08-25 16:15:27,055 [11] INFO Server.Database.DataRepo - Successfully added item with id: 9
+2019-08-25 16:15:27,060 [11] INFO Server.CurrentConnectionOperations - Updating users with item-changing data
+2019-08-25 16:15:27,153 [11] INFO Server.DataService - Item with id: 9 is successfully added to database
+2019-08-25 16:15:43,457 [11] INFO Server.Database.DataRepo - Item with id: 9 updated
+2019-08-25 16:15:43,532 [11] INFO Server.CurrentConnectionOperations - Updating users with item-changing data
+2019-08-25 16:15:43,533 [11] INFO Server.DataService - Item with id: 9 is successfully updated in database
+2019-08-25 16:15:48,366 [16] INFO Server.Database.DataRepo - Item with id: 9 updated
+2019-08-25 16:15:48,425 [16] INFO Server.CurrentConnectionOperations - Updating users with item-changing data
+2019-08-25 16:15:48,466 [16] INFO Server.DataService - Item with id: 9 is successfully updated in database
+2019-08-25 16:15:52,703 [11] INFO Server.Database.DataRepo - Item with id: 9 updated
+2019-08-25 16:15:52,758 [11] INFO Server.CurrentConnectionOperations - Updating users with item-changing data
+2019-08-25 16:15:52,798 [11] INFO Server.DataService - Item with id: 9 is successfully updated in database
+2019-08-25 16:15:54,753 [16] INFO Server.Database.DataRepo - Item with id: 9 updated
+2019-08-25 16:15:54,807 [16] INFO Server.CurrentConnectionOperations - Updating users with item-changing data
+2019-08-25 16:15:54,853 [16] INFO Server.DataService - Item with id: 9 is successfully updated in database
+2019-08-25 16:16:13,832 [16] INFO Server.Database.DataRepo - Item with id: 9 updated
+2019-08-25 16:16:13,881 [16] INFO Server.CurrentConnectionOperations - Updating users with item-changing data
+2019-08-25 16:16:13,904 [16] INFO Server.DataService - Item with id: 9 is successfully updated in database
+2019-08-25 16:17:04,461 [7] INFO Server.Database.DataRepo - Item with id: 9 updated
+2019-08-25 16:17:04,547 [7] INFO Server.CurrentConnectionOperations - Updating users with item-changing data
+2019-08-25 16:17:04,632 [7] INFO Server.DataService - Item with id: 9 is successfully updated in database
+2019-08-25 16:17:08,764 [10] ERROR Server.DataService - Conflict achieved when tried to update item with id 9
+2019-08-25 16:17:15,887 [10] INFO Server.Database.DataRepo - Item with id: 9 updated
+2019-08-25 16:17:15,936 [10] INFO Server.CurrentConnectionOperations - Updating users with item-changing data
+2019-08-25 16:17:15,974 [10] INFO Server.DataService - Item with id: 9 is successfully updated in database
+2019-08-25 18:27:29,086 [1] INFO Server.Program - Default admin is already in database
+2019-08-25 18:27:29,817 [1] INFO Server.Program - Service successfully started
+2019-08-25 18:28:45,320 [1] INFO Server.Program - Default admin is already in database
+2019-08-25 18:28:45,863 [1] INFO Server.Program - Service successfully started
+2019-08-25 18:29:10,698 [8] INFO Server.LoginService - User with username: Admin has successfully logged in
+2019-08-25 18:29:32,003 [5] INFO Server.Database.UsersRepo - Admin with username: Admin successfully deleted user aaa
+2019-08-25 18:29:32,009 [5] INFO Server.CurrentConnectionOperations - Updating users with user-changing data
+2019-08-25 18:29:32,098 [5] INFO Server.CurrentConnectionOperations - Updating users with item-changing data
+2019-08-25 18:29:32,100 [5] INFO Server.CurrentConnectionOperations - Updating users with item-changing data
+2019-08-25 18:29:32,152 [5] INFO Server.CurrentConnectionOperations - Updating users with item-changing data
+2019-08-25 18:29:32,153 [5] INFO Server.UserService - Person with username aaa successfully removed from database
+2019-08-25 18:30:53,258 [1] INFO Server.Program - Default admin is already in database
+2019-08-25 18:30:53,671 [1] INFO Server.Program - Service successfully started
+2019-08-25 18:31:09,659 [10] INFO Server.LoginService - User with username: Admin has successfully logged in
+2019-08-25 18:31:17,639 [8] INFO Server.Database.DataRepo - Successfully added item with id: 10
+2019-08-25 18:31:17,645 [8] INFO Server.CurrentConnectionOperations - Updating users with item-changing data
+2019-08-25 18:31:17,708 [8] INFO Server.DataService - Item with id: 10 and owner  is successfully added to database
+2019-08-25 18:31:21,284 [6] INFO Server.Database.DataRepo - Item with id: 10 deleted
+2019-08-25 18:31:21,286 [6] INFO Server.CurrentConnectionOperations - Updating users with item-changing data
+2019-08-25 18:31:21,320 [6] INFO Server.DataService - Item with id: 10 is successfully removed to database
+2019-08-25 18:31:23,057 [8] INFO Server.Database.DataRepo - Successfully added item with id: 11
+2019-08-25 18:31:23,058 [8] INFO Server.CurrentConnectionOperations - Updating users with item-changing data
+2019-08-25 18:31:23,093 [8] INFO Server.DataService - Item with id: 11 and owner  is successfully added to database
+2019-08-25 18:31:26,120 [6] ERROR Server.DataService - Invalid item data supplied for removal
+2019-08-25 18:31:26,270 [6] INFO Server.Database.DataRepo - Item with id: 11 deleted
+2019-08-25 18:31:26,271 [6] INFO Server.CurrentConnectionOperations - Updating users with item-changing data
+2019-08-25 18:31:26,272 [6] INFO Server.DataService - Item with id: 11 is successfully removed to database
+2019-08-25 18:31:33,571 [8] INFO Server.Database.DataRepo - Item with id: 9 updated
+2019-08-25 18:31:33,684 [8] INFO Server.CurrentConnectionOperations - Updating users with item-changing data
+2019-08-25 18:31:33,711 [8] INFO Server.DataService - Item with id: 9 is successfully updated in database
+2019-08-25 18:31:38,484 [6] INFO Server.Database.DataRepo - Successfully added item with id: 12
+2019-08-25 18:31:38,486 [6] INFO Server.CurrentConnectionOperations - Updating users with item-changing data
+2019-08-25 18:31:38,521 [6] INFO Server.DataService - Item with id: 12 and owner  is successfully added to database
+2019-08-25 18:31:43,219 [8] INFO Server.Database.DataRepo - Item with id: 12 updated
+2019-08-25 18:31:43,270 [8] INFO Server.CurrentConnectionOperations - Updating users with item-changing data
+2019-08-25 18:31:43,307 [8] INFO Server.DataService - Item with id: 12 is successfully updated in database
+2019-08-25 18:32:02,828 [6] INFO Server.Database.DataRepo - Item with id: 12 updated
+2019-08-25 18:32:02,875 [6] INFO Server.CurrentConnectionOperations - Updating users with item-changing data
+2019-08-25 18:32:02,877 [6] INFO Server.DataService - Item with id: 12 is successfully updated in database
+2019-08-25 18:32:05,096 [6] INFO Server.Database.DataRepo - Item with id: 12 updated
+2019-08-25 18:32:05,143 [6] INFO Server.CurrentConnectionOperations - Updating users with item-changing data
+2019-08-25 18:32:05,175 [6] INFO Server.DataService - Item with id: 12 is successfully updated in database
+2019-08-25 18:33:12,961 [6] INFO Server.Database.DataRepo - Item with id: 9 updated
+2019-08-25 18:33:13,006 [6] INFO Server.CurrentConnectionOperations - Updating users with item-changing data
+2019-08-25 18:33:13,032 [6] INFO Server.DataService - Item with id: 9 is successfully updated in database
+2019-08-25 18:33:24,047 [12] INFO Server.Database.DataRepo - Successfully added item with id: 13
+2019-08-25 18:33:24,048 [12] INFO Server.CurrentConnectionOperations - Updating users with item-changing data
+2019-08-25 18:33:24,085 [12] INFO Server.DataService - Item with id: 13 is successfully added to database
+2019-08-25 18:33:24,302 [11] INFO Server.Database.DataRepo - Successfully added item with id: 14
+2019-08-25 18:33:24,303 [11] INFO Server.CurrentConnectionOperations - Updating users with item-changing data
+2019-08-25 18:33:24,304 [11] INFO Server.DataService - Item with id: 14 and owner  is successfully added to database
+2019-08-25 18:33:48,769 [6] INFO Server.Database.DataRepo - Item with id: 14 updated
+2019-08-25 18:33:50,834 [6] INFO Server.CurrentConnectionOperations - Updating users with item-changing data
+2019-08-25 18:33:50,930 [6] INFO Server.DataService - Item with id: 14 is successfully updated in database
+2019-08-25 18:35:13,960 [18] INFO Server.Database.DataRepo - Item with id: 14 deleted
+2019-08-25 18:35:13,961 [18] INFO Server.CurrentConnectionOperations - Updating users with item-changing data
+2019-08-25 18:35:13,971 [18] INFO Server.DataService - Item with id: 14 is successfully removed to database
+2019-08-25 18:35:15,311 [18] INFO Server.Database.DataRepo - Item with id: 13 deleted
+2019-08-25 18:35:15,312 [18] INFO Server.CurrentConnectionOperations - Updating users with item-changing data
+2019-08-25 18:35:15,313 [18] INFO Server.DataService - Item with id: 13 is successfully removed to database
+2019-08-25 18:35:19,185 [18] INFO Server.Database.DataRepo - Item with id: 12 deleted
+2019-08-25 18:35:19,186 [18] INFO Server.CurrentConnectionOperations - Updating users with item-changing data
+2019-08-25 18:35:19,198 [18] INFO Server.DataService - Item with id: 12 is successfully removed to database
+2019-08-25 18:36:06,564 [18] INFO Server.Database.DataRepo - Successfully added item with id: 15
+2019-08-25 18:36:06,566 [18] INFO Server.CurrentConnectionOperations - Updating users with item-changing data
+2019-08-25 18:36:06,587 [18] INFO Server.DataService - Item with id: 15 and owner  is successfully added to database
+2019-08-25 18:37:32,853 [1] INFO Server.Program - Default admin is already in database
+2019-08-25 18:37:33,250 [1] INFO Server.Program - Service successfully started
+2019-08-25 18:38:43,269 [10] INFO Server.LoginService - User with username: Admin has successfully logged in
+2019-08-25 18:40:57,108 [1] INFO Server.Program - Default admin is already in database
+2019-08-25 18:40:57,543 [1] INFO Server.Program - Service successfully started
+2019-08-25 18:41:16,893 [10] INFO Server.LoginService - User with username: Admin has successfully logged in
+2019-08-25 18:41:39,513 [10] INFO Server.Database.DataRepo - Successfully added found item with id: 16 with no owner
+2019-08-25 18:41:39,521 [10] INFO Server.CurrentConnectionOperations - Updating users with item-changing data
+2019-08-25 18:41:39,647 [10] INFO Server.DataService - Item with id: 16 and owner  is successfully added to database
+2019-08-25 18:42:32,124 [10] INFO Server.Database.DataRepo - Successfully added item with id: 17
+2019-08-25 18:42:32,125 [10] INFO Server.CurrentConnectionOperations - Updating users with item-changing data
+2019-08-25 18:42:32,174 [10] INFO Server.DataService - Item with id: 17 is successfully added to database
+2019-08-25 18:42:44,072 [10] INFO Server.Database.DataRepo - Item with id: 16 deleted
+2019-08-25 18:42:44,073 [10] INFO Server.CurrentConnectionOperations - Updating users with item-changing data
+2019-08-25 18:42:44,194 [10] INFO Server.DataService - Item with id: 16 is successfully removed to database
+2019-08-25 18:42:44,446 [10] INFO Server.Database.DataRepo - Item with id: 17 deleted
+2019-08-25 18:42:44,447 [10] INFO Server.CurrentConnectionOperations - Updating users with item-changing data
+2019-08-25 18:42:44,457 [10] INFO Server.DataService - Item with id: 17 is successfully removed to database
+2019-08-25 18:42:52,801 [7] INFO Server.Database.DataRepo - Successfully added found item with id: 18 with no owner
+2019-08-25 18:42:52,802 [7] INFO Server.CurrentConnectionOperations - Updating users with item-changing data
+2019-08-25 18:42:55,547 [7] INFO Server.DataService - Item with id: 18 and owner  is successfully added to database
+2019-08-25 18:42:58,369 [13] INFO Server.Database.DataRepo - Successfully added item with id: 19
+2019-08-25 18:42:58,371 [13] INFO Server.CurrentConnectionOperations - Updating users with item-changing data
+2019-08-25 18:42:58,407 [13] INFO Server.DataService - Item with id: 19 is successfully added to database
+2019-08-25 18:43:12,659 [10] INFO Server.Database.DataRepo - Item with id: 19 updated
+2019-08-25 18:43:12,732 [10] INFO Server.CurrentConnectionOperations - Updating users with item-changing data
+2019-08-25 18:43:12,759 [10] INFO Server.DataService - Item with id: 19 is successfully updated in database
+2019-08-25 18:43:18,510 [10] INFO Server.Database.DataRepo - Item with id: 19 updated
+2019-08-25 18:43:18,556 [10] INFO Server.CurrentConnectionOperations - Updating users with item-changing data
+2019-08-25 18:43:18,589 [10] INFO Server.DataService - Item with id: 19 is successfully updated in database
+2019-08-25 18:44:22,660 [10] INFO Server.LoginService - User with username: Admin has successfully logged out
+2019-08-25 19:45:31,261 [1] INFO Server.Program - Default admin is already in database
+2019-08-25 19:45:32,294 [1] INFO Server.Program - Service successfully started
+2019-08-25 19:46:30,515 [8] INFO Server.LoginService - User with username: Admin has successfully logged in
+2019-08-25 19:46:52,421 [10] INFO Server.Database.UsersRepo - Admin with username: Admin successfully added user aaa as Regular user
+2019-08-25 19:46:52,498 [10] INFO Server.CurrentConnectionOperations - Updating users with user-changing data
+2019-08-25 19:46:52,557 [10] INFO Server.UserService - Person with username aaa successfully added to database
+2019-08-25 19:49:32,356 [15] INFO Server.Database.DataRepo - Item with id: 9 deleted
+2019-08-25 19:49:32,360 [15] INFO Server.CurrentConnectionOperations - Updating users with item-changing data
+2019-08-25 19:49:32,402 [15] INFO Server.DataService - Item with id: 9 is successfully removed to database
+2019-08-25 19:49:33,896 [18] INFO Server.Database.DataRepo - Item with id: 15 deleted
+2019-08-25 19:49:33,898 [18] INFO Server.CurrentConnectionOperations - Updating users with item-changing data
+2019-08-25 19:49:33,980 [18] INFO Server.DataService - Item with id: 15 is successfully removed to database
+2019-08-25 19:49:34,960 [19] INFO Server.Database.DataRepo - Item with id: 18 deleted
+2019-08-25 19:49:34,961 [19] INFO Server.CurrentConnectionOperations - Updating users with item-changing data
+2019-08-25 19:49:34,963 [19] INFO Server.DataService - Item with id: 18 is successfully removed to database
+2019-08-25 19:49:36,273 [15] INFO Server.Database.DataRepo - Item with id: 19 deleted
+2019-08-25 19:49:36,276 [15] INFO Server.CurrentConnectionOperations - Updating users with item-changing data
+2019-08-25 19:49:36,278 [15] INFO Server.DataService - Item with id: 19 is successfully removed to database
+2019-08-25 19:50:01,867 [15] INFO Server.Database.DataRepo - Successfully added item with id: 20
+2019-08-25 19:50:01,868 [15] INFO Server.CurrentConnectionOperations - Updating users with item-changing data
+2019-08-25 19:50:01,907 [15] INFO Server.DataService - Item with id: 20 is successfully added to database
+2019-08-25 19:50:35,335 [15] INFO Server.LoginService - User with username: aaa has successfully logged in
+2019-08-25 19:50:41,629 [15] INFO Server.Database.DataRepo - Item with id: 20 updated
+2019-08-25 19:50:41,720 [15] INFO Server.CurrentConnectionOperations - Updating users with item-changing data
+2019-08-25 19:50:41,742 [15] INFO Server.DataService - Item with id: 20 is successfully updated in database
+2019-08-25 19:50:47,467 [15] ERROR Server.DataService - Invalid item data supplied for addition
+2019-08-25 19:52:30,760 [21] ERROR Server.DataService - Invalid item data supplied for addition
+2019-08-25 19:56:20,738 [16] ERROR Server.DataService - Invalid item data supplied for addition
+2019-08-25 20:00:43,291 [1] INFO Server.Program - Default admin is already in database
+2019-08-25 20:00:43,604 [1] INFO Server.Program - Service successfully started
+2019-08-25 20:02:00,039 [1] INFO Server.Program - Service successfully closed
+2019-08-25 20:12:23,467 [1] INFO Server.Program - Default admin is already in database
+2019-08-25 20:12:24,052 [1] INFO Server.Program - Service successfully started
+2019-08-25 20:19:19,907 [1] INFO Server.Program - Service successfully closed
+2019-08-25 20:20:40,087 [1] INFO Server.Program - Default admin is already in database
+2019-08-25 20:20:40,842 [1] INFO Server.Program - Service successfully started
+2019-08-25 20:21:23,007 [7] INFO Server.LoginService - User with username: Admin has successfully logged in
+2019-08-25 20:25:35,436 [1] INFO Server.Program - Default admin is already in database
+2019-08-25 20:25:36,160 [1] INFO Server.Program - Service successfully started
+2019-08-25 20:26:17,909 [9] INFO Server.LoginService - User with username: Admin has successfully logged in
+2019-08-25 20:26:35,014 [7] INFO Server.Database.DataRepo - Successfully added item with id: 21 with owner: aaa
+2019-08-25 20:26:35,026 [7] INFO Server.CurrentConnectionOperations - Updating users with item-changing data
+2019-08-25 20:26:35,161 [7] INFO Server.DataService - Item with id: 21 and owner aaa is successfully added to database
+2019-08-25 20:26:39,298 [7] INFO Server.Database.DataRepo - Item with id: 21 deleted
+2019-08-25 20:26:39,300 [7] INFO Server.CurrentConnectionOperations - Updating users with item-changing data
+2019-08-25 20:26:39,341 [7] INFO Server.DataService - Item with id: 21 is successfully removed to database
+2019-08-25 20:26:41,031 [7] INFO Server.Database.DataRepo - Successfully added item with id: 22 with owner: aaa
+2019-08-25 20:26:41,033 [7] INFO Server.CurrentConnectionOperations - Updating users with item-changing data
+2019-08-25 20:26:41,083 [7] INFO Server.DataService - Item with id: 22 and owner aaa is successfully added to database
+2019-08-25 20:30:29,589 [1] INFO Server.Program - Default admin is already in database
+2019-08-25 20:30:32,084 [1] INFO Server.Program - Service successfully started
+2019-08-25 20:31:41,362 [9] INFO Server.LoginService - User with username: Admin has successfully logged in
+2019-08-25 20:33:16,142 [1] INFO Server.Program - Default admin is already in database
+2019-08-25 20:33:16,838 [1] INFO Server.Program - Service successfully started
+2019-08-25 20:34:00,305 [10] INFO Server.LoginService - User with username: Admin has successfully logged in
+2019-08-25 20:35:57,040 [1] INFO Server.Program - Default admin is already in database
+2019-08-25 20:35:57,580 [1] INFO Server.Program - Service successfully started
+2019-08-25 20:36:37,146 [9] INFO Server.LoginService - User with username: Admin has successfully logged in
+2019-08-25 20:38:17,083 [1] INFO Server.Program - Default admin is already in database
+2019-08-25 20:38:17,673 [1] INFO Server.Program - Service successfully started
+2019-08-25 20:43:21,335 [12] INFO Server.LoginService - User with username: Admin has successfully logged in
+2019-08-25 20:47:05,274 [1] INFO Server.Program - Default admin is already in database
+2019-08-25 20:47:05,850 [1] INFO Server.Program - Service successfully started
+2019-08-25 20:47:38,780 [9] INFO Server.LoginService - User with username: Admin has successfully logged in
+2019-08-25 20:51:49,316 [1] INFO Server.Program - Default admin is already in database
+2019-08-25 20:51:49,922 [1] INFO Server.Program - Service successfully started
+2019-08-25 20:52:29,285 [6] INFO Server.LoginService - User with username: Admin has successfully logged in
+2019-08-25 21:02:27,648 [1] INFO Server.Program - Default admin is already in database
+2019-08-25 21:02:28,935 [1] INFO Server.Program - Service successfully started
+2019-08-25 21:03:35,913 [6] INFO Server.LoginService - User with username: Admin has successfully logged in
+2019-08-25 21:05:20,173 [10] INFO Server.LoginService - User with username: aaa has successfully logged in
+2019-08-25 21:05:53,441 [13] INFO Server.Database.DataRepo - Successfully added item with id: 23 with owner: aaa
+2019-08-25 21:05:53,449 [13] INFO Server.CurrentConnectionOperations - Updating users with item-changing data
+2019-08-25 21:05:53,487 [13] INFO Server.DataService - Item with id: 23 and owner aaa is successfully added to database
+2019-08-25 21:05:54,239 [17] INFO Server.Database.DataRepo - Successfully added item with id: 24 with owner: aaa
+2019-08-25 21:05:54,240 [17] INFO Server.CurrentConnectionOperations - Updating users with item-changing data
+2019-08-25 21:05:54,242 [17] INFO Server.DataService - Item with id: 24 and owner aaa is successfully added to database
+2019-08-25 21:06:06,753 [13] INFO Server.Database.DataRepo - Item with id: 24 updated
+2019-08-25 21:06:06,896 [13] INFO Server.CurrentConnectionOperations - Updating users with item-changing data
+2019-08-25 21:06:06,910 [13] INFO Server.DataService - Item with id: 24 is successfully updated in database
+2019-08-25 21:06:11,284 [14] INFO Server.Database.DataRepo - Item with id: 23 deleted
+2019-08-25 21:06:11,286 [14] INFO Server.CurrentConnectionOperations - Updating users with item-changing data
+2019-08-25 21:06:11,324 [14] INFO Server.DataService - Item with id: 23 is successfully removed to database
+2019-08-25 21:06:11,737 [13] ERROR Server.DataService - Conflict achieved when tried to remove item with id 24
+2019-08-25 21:06:33,440 [13] INFO Server.Database.DataRepo - Successfully added item with id: 25
+2019-08-25 21:06:33,444 [13] INFO Server.CurrentConnectionOperations - Updating users with item-changing data
+2019-08-25 21:06:33,470 [13] INFO Server.DataService - Item with id: 25 is successfully added to database
+2019-08-25 21:07:39,157 [23] INFO Server.Database.DataRepo - Item with id: 25 updated
+2019-08-25 21:07:39,263 [23] INFO Server.CurrentConnectionOperations - Updating users with item-changing data
+2019-08-25 21:07:39,280 [23] INFO Server.DataService - Item with id: 25 is successfully updated in database
+2019-08-25 21:07:42,449 [23] ERROR Server.DataService - Conflict achieved when tried to update item with id 25
+2019-08-25 21:07:52,926 [23] INFO Server.Database.DataRepo - Item with id: 25 updated
+2019-08-25 21:07:53,021 [23] INFO Server.CurrentConnectionOperations - Updating users with item-changing data
+2019-08-25 21:07:53,046 [23] INFO Server.DataService - Item with id: 25 is successfully updated in database
+2019-08-25 21:07:54,629 [23] ERROR Server.DataService - Conflict achieved when tried to update item with id 25
+2019-08-25 21:07:58,521 [23] INFO Server.Database.DataRepo - Item with id: 25 updated
+2019-08-25 21:07:58,621 [23] INFO Server.CurrentConnectionOperations - Updating users with item-changing data
+2019-08-25 21:07:58,639 [23] INFO Server.DataService - Item with id: 25 is successfully updated in database
+2019-08-25 21:08:07,213 [26] INFO Server.Database.DataRepo - Item with id: 25 updated
+2019-08-25 21:08:07,274 [26] INFO Server.CurrentConnectionOperations - Updating users with item-changing data
+2019-08-25 21:08:07,299 [26] INFO Server.DataService - Item with id: 25 is successfully updated in database
+2019-08-25 21:08:15,605 [23] INFO Server.LoginService - User with username: Admin has successfully logged out
+2019-08-25 21:08:19,899 [25] INFO Server.LoginService - User with username: aaa has successfully logged out
+2019-08-25 21:10:57,884 [1] INFO Server.Program - Default admin is already in database
+2019-08-25 21:10:58,564 [1] INFO Server.Program - Service successfully started
+2019-08-25 21:11:39,393 [9] INFO Server.LoginService - User with username: Admin has successfully logged in
+2019-08-26 19:30:33,336 [1] INFO Server.Database.UsersRepo - Server successfully auto added user admin as Admin
+2019-08-26 19:30:33,986 [1] INFO Server.Program - Default admin inserted
+2019-08-26 19:30:33,988 [1] INFO Server.Program - Default admin is already in database
+2019-08-26 19:33:09,426 [1] INFO Server.Program - Default admin is already in database
+2019-08-26 19:33:10,306 [1] INFO Server.Program - Service successfully started
+2019-08-27 10:50:30,817 [1] INFO Server.Program - Default admin is already in database
+2019-08-27 10:50:33,671 [1] INFO Server.Program - Service successfully started
+2019-08-27 11:32:27,227 [1] INFO Server.Program - Default admin is already in database
+2019-08-27 11:32:29,505 [1] INFO Server.Program - Service successfully started
+2019-08-27 11:34:53,608 [9] INFO Server.Model.LoginService - User with username: admin has successfully logged in
+2019-08-27 11:40:55,549 [1] INFO Server.Program - Default admin is already in database
+2019-08-27 11:40:56,502 [1] INFO Server.Program - Service successfully started
+2019-08-27 11:41:41,056 [8] INFO Server.Model.LoginService - User with username: admin has successfully logged in
+2019-08-27 11:44:50,190 [1] INFO Server.Program - Default admin is already in database
+2019-08-27 11:44:50,994 [1] INFO Server.Program - Service successfully started
+2019-08-27 11:45:33,588 [8] INFO Server.Model.LoginService - User with username: admin has successfully logged in
+2019-08-27 11:47:19,480 [1] INFO Server.Program - Default admin is already in database
+2019-08-27 11:47:19,967 [1] INFO Server.Program - Service successfully started
+2019-08-27 11:47:46,358 [9] INFO Server.Model.LoginService - User with username: admin has successfully logged in
+2019-08-27 11:48:14,341 [6] INFO Server.Model.LoginService - User with username: admin has successfully logged out
+2019-08-27 11:49:46,447 [1] INFO Server.Program - Default admin is already in database
+2019-08-27 11:49:46,932 [1] INFO Server.Program - Service successfully started
+2019-08-27 11:50:36,386 [5] INFO Server.Model.LoginService - User with username: admin has successfully logged in
+2019-08-27 11:51:14,244 [5] INFO Server.Model.LoginService - User with username: admin has successfully logged out
+2019-08-27 12:05:30,434 [1] INFO Server.Program - Default admin is already in database
+2019-08-27 12:05:31,509 [1] INFO Server.Program - Service successfully started
+2019-08-27 12:05:58,349 [9] INFO Server.Model.LoginService - User with username: admin has successfully logged in
+2019-08-27 12:07:07,941 [9] INFO Server.Model.LoginService - User with username: admin has successfully logged out
+2019-08-27 12:10:09,495 [14] INFO Server.Model.LoginService - User with username: admin has successfully logged in
+2019-08-27 12:10:54,980 [14] INFO Server.Database.UsersRepo - Admin with username: admin successfully added user dejan as Regular user
+2019-08-27 12:10:55,026 [14] INFO Server.Model.CurrentConnectionOperations - Updating users with user-changing data
+2019-08-27 12:10:55,087 [14] INFO Server.Model.UserService - Person with username dejan successfully added to database
+2019-08-27 12:11:08,927 [14] INFO Server.Database.UsersRepo - Admin with username: admin successfully added user tijana as Admin
+2019-08-27 12:11:08,981 [14] INFO Server.Model.CurrentConnectionOperations - Updating users with user-changing data
+2019-08-27 12:11:09,015 [14] INFO Server.Model.UserService - Person with username tijana successfully added to database
+2019-08-27 12:11:32,082 [11] INFO Server.Database.UsersRepo - Admin with username: admin successfully added user gordana as Regular user
+2019-08-27 12:11:32,137 [11] INFO Server.Model.CurrentConnectionOperations - Updating users with user-changing data
+2019-08-27 12:11:32,138 [11] INFO Server.Model.UserService - Person with username gordana successfully added to database
+2019-08-27 12:11:44,726 [14] INFO Server.Database.UsersRepo - Admin with username: admin successfully added user slobodan as Regular user
+2019-08-27 12:11:44,768 [14] INFO Server.Model.CurrentConnectionOperations - Updating users with user-changing data
+2019-08-27 12:11:44,781 [14] INFO Server.Model.UserService - Person with username slobodan successfully added to database
+2019-08-27 12:12:08,735 [14] INFO Server.Model.LoginService - User with username: dejan has successfully logged in
+2019-08-27 12:12:31,807 [21] INFO Server.Model.LoginService - User with username: tijana has successfully logged in
+2019-08-27 12:12:50,887 [14] INFO Server.Database.DataRepo - Successfully added item with id: 1
+2019-08-27 12:12:50,890 [14] INFO Server.Model.CurrentConnectionOperations - Updating users with item-changing data
+2019-08-27 12:12:50,892 [14] INFO Server.Model.DataService - Item with id: 1 is successfully added to database
+2019-08-27 12:13:35,101 [26] INFO Server.Database.DataRepo - Successfully added item with id: 2
+2019-08-27 12:13:35,102 [26] INFO Server.Model.CurrentConnectionOperations - Updating users with item-changing data
+2019-08-27 12:13:35,104 [26] INFO Server.Model.DataService - Item with id: 2 is successfully added to database
+2019-08-27 12:14:07,404 [21] INFO Server.Database.DataRepo - Successfully added item with id: 3
+2019-08-27 12:14:07,405 [21] INFO Server.Model.CurrentConnectionOperations - Updating users with item-changing data
+2019-08-27 12:14:07,406 [21] INFO Server.Model.DataService - Item with id: 3 is successfully added to database
+2019-08-27 12:14:14,682 [17] INFO Server.Database.DataRepo - Item with id: 2 updated
+2019-08-27 12:14:14,755 [17] INFO Server.Model.CurrentConnectionOperations - Updating users with item-changing data
+2019-08-27 12:14:14,768 [17] INFO Server.Model.DataService - Item with id: 2 is successfully updated in database
+2019-08-27 12:16:26,772 [13] INFO Server.Model.LoginService - User with username: dejan has successfully logged out
+2019-08-27 12:16:30,473 [30] INFO Server.Model.LoginService - User with username: tijana has successfully logged out
+2019-08-27 12:18:27,429 [1] INFO Server.Program - Default admin is already in database
+2019-08-27 12:18:27,952 [1] INFO Server.Program - Service successfully started
+2019-08-27 12:19:05,881 [6] INFO Server.Model.LoginService - User with username: admin has successfully logged in
+2019-08-27 12:19:25,151 [6] INFO Server.Model.LoginService - User with username: admin has successfully logged out
+2019-08-27 12:19:31,054 [10] INFO Server.Model.LoginService - User with username: dejan has successfully logged in
+2019-08-27 12:20:02,868 [8] INFO Server.Model.LoginService - User with username: dejan has successfully logged out
+2019-08-27 12:20:13,047 [8] INFO Server.Model.LoginService - User with username: admin has successfully logged in
+2019-08-27 12:20:54,342 [1] INFO Server.Program - Default admin is already in database
+2019-08-27 12:20:54,825 [1] INFO Server.Program - Service successfully started
+2019-08-27 12:21:15,749 [8] INFO Server.Model.LoginService - User with username: tijana has successfully logged in
+2019-08-27 12:21:38,363 [9] INFO Server.Model.LoginService - User with username: dejan has successfully logged in
+2019-08-27 12:24:50,957 [11] INFO Server.Model.LoginService - User with username: tijana has successfully logged out
+2019-08-27 12:24:52,764 [11] INFO Server.Model.LoginService - User with username: dejan has successfully logged out
+2019-08-27 12:28:11,927 [1] INFO Server.Program - Service successfully closed
+2019-08-27 15:58:49,407 [1] INFO Server.Program - Default admin is already in database
+2019-08-27 15:58:50,187 [1] INFO Server.Program - Service successfully started
+2019-08-27 15:59:31,306 [9] INFO Server.Model.LoginService - User with username: admin has successfully logged in
+2019-08-27 16:01:06,530 [6] INFO Server.Database.DataRepo - Successfully added item with id: 4
+2019-08-27 16:01:06,537 [6] INFO Server.Model.CurrentConnectionOperations - Updating users with item-changing data
+2019-08-27 16:01:06,608 [6] INFO Server.Model.DataService - Item with id: 4 is successfully added to database
+2019-08-27 16:01:14,225 [3] INFO Server.Database.DataRepo - Item with id: 3 updated
+2019-08-27 16:01:14,300 [3] INFO Server.Model.CurrentConnectionOperations - Updating users with item-changing data
+2019-08-27 16:01:14,334 [3] INFO Server.Model.DataService - Item with id: 3 is successfully updated in database
+2019-08-27 16:01:30,050 [3] INFO Server.Database.UsersRepo - Admin with username: admin successfully added user aaa as Regular user
+2019-08-27 16:01:30,113 [3] INFO Server.Model.CurrentConnectionOperations - Updating users with user-changing data
+2019-08-27 16:01:30,135 [3] INFO Server.Model.UserService - Person with username aaa successfully added to database
+2019-08-27 16:02:48,283 [3] INFO Server.Model.LoginService - User with username: admin has successfully logged out
+2019-08-27 16:02:52,410 [3] INFO Server.Model.LoginService - User with username: aaa has successfully logged in
+2019-08-27 16:03:01,722 [3] INFO Server.Database.DataRepo - Successfully added item with id: 5
+2019-08-27 16:03:01,723 [3] INFO Server.Model.CurrentConnectionOperations - Updating users with item-changing data
+2019-08-27 16:03:01,799 [3] INFO Server.Model.DataService - Item with id: 5 is successfully added to database
+2019-08-27 16:03:11,609 [13] INFO Server.Model.LoginService - User with username: aaa has successfully logged out
+2019-08-27 16:03:16,432 [3] INFO Server.Model.LoginService - User with username: admin has successfully logged in
+2019-08-27 16:03:22,192 [13] INFO Server.Model.LoginService - User with username: admin has successfully logged out
+2019-08-27 16:03:27,824 [13] INFO Server.Model.LoginService - User with username: aaa has successfully logged in
+2019-08-27 16:03:33,682 [13] INFO Server.Model.LoginService - User with username: aaa has successfully logged out
+2019-08-27 16:03:39,189 [13] INFO Server.Model.LoginService - User with username: admin has successfully logged in
+2019-08-27 16:03:47,579 [3] INFO Server.Database.DataRepo - Successfully added item with id: 6
+2019-08-27 16:03:47,580 [3] INFO Server.Model.CurrentConnectionOperations - Updating users with item-changing data
+2019-08-27 16:03:47,645 [3] INFO Server.Model.DataService - Item with id: 6 is successfully added to database
+2019-08-27 16:03:49,851 [19] INFO Server.Model.LoginService - User with username: admin has successfully logged out
+2019-08-27 16:03:54,229 [13] INFO Server.Model.LoginService - User with username: aaa has successfully logged in
+2019-08-27 16:03:58,979 [13] INFO Server.Database.DataRepo - Item with id: 6 updated
+2019-08-27 16:03:59,022 [13] INFO Server.Model.CurrentConnectionOperations - Updating users with item-changing data
+2019-08-27 16:03:59,052 [13] INFO Server.Model.DataService - Item with id: 6 is successfully updated in database
+2019-08-27 16:04:02,344 [3] INFO Server.Model.LoginService - User with username: aaa has successfully logged out
+2019-08-27 16:04:06,417 [3] INFO Server.Model.LoginService - User with username: admin has successfully logged in
+2019-08-27 16:04:16,851 [19] INFO Server.Database.UsersRepo - Admin with username: admin successfully deleted user aaa
+2019-08-27 16:04:16,852 [19] INFO Server.Model.CurrentConnectionOperations - Updating users with user-changing data
+2019-08-27 16:04:16,883 [19] INFO Server.Model.CurrentConnectionOperations - Updating users with item-changing data
+2019-08-27 16:04:16,884 [19] INFO Server.Model.CurrentConnectionOperations - Updating users with item-changing data
+2019-08-27 16:04:16,899 [19] INFO Server.Model.UserService - Person with username aaa successfully removed from database
+2019-08-27 16:04:38,319 [19] INFO Server.Database.DataRepo - Successfully added found item with id: 7 with no owner
+2019-08-27 16:04:38,323 [19] INFO Server.Model.CurrentConnectionOperations - Updating users with item-changing data
+2019-08-27 16:04:38,325 [19] INFO Server.Model.DataService - Item with id: 7 and owner  is successfully added to database
+2019-08-27 16:04:44,016 [19] INFO Server.Database.DataRepo - Item with id: 6 deleted
+2019-08-27 16:04:44,018 [19] INFO Server.Model.CurrentConnectionOperations - Updating users with item-changing data
+2019-08-27 16:04:44,033 [19] INFO Server.Model.DataService - Item with id: 6 is successfully removed to database
+2019-08-27 16:04:45,617 [19] INFO Server.Database.DataRepo - Item with id: 7 deleted
+2019-08-27 16:04:45,619 [19] INFO Server.Model.CurrentConnectionOperations - Updating users with item-changing data
+2019-08-27 16:04:45,632 [19] INFO Server.Model.DataService - Item with id: 7 is successfully removed to database
+2019-08-27 16:04:54,275 [5] INFO Server.Database.DataRepo - Item with id: 4 updated
+2019-08-27 16:04:54,316 [5] INFO Server.Model.CurrentConnectionOperations - Updating users with item-changing data
+2019-08-27 16:04:54,330 [5] INFO Server.Model.DataService - Item with id: 4 is successfully updated in database
+2019-08-27 16:04:59,222 [5] INFO Server.Database.DataRepo - Item with id: 4 deleted
+2019-08-27 16:04:59,224 [5] INFO Server.Model.CurrentConnectionOperations - Updating users with item-changing data
+2019-08-27 16:04:59,239 [5] INFO Server.Model.DataService - Item with id: 4 is successfully removed to database
+2019-08-27 16:05:08,940 [20] INFO Server.Model.LoginService - User with username: admin has successfully logged out
+2019-08-27 18:45:34,317 [1] INFO Server.Program - Default admin is already in database
+2019-08-27 18:45:35,160 [1] INFO Server.Program - Service successfully started
+2019-08-27 18:46:06,298 [9] INFO Server.Model.LoginService - User with username: tijana has successfully logged in
+2019-08-27 18:47:08,454 [9] INFO Server.Model.LoginService - User with username: slobodan has successfully logged in
+2019-08-27 18:47:39,560 [9] INFO Server.Database.DataRepo - Successfully added item with id: 8
+2019-08-27 18:47:39,564 [9] INFO Server.Model.CurrentConnectionOperations - Updating users with item-changing data
+2019-08-27 18:47:39,585 [9] INFO Server.Model.DataService - Item with id: 8 is successfully added to database
+2019-08-27 19:27:27,006 [1] INFO Server.Program - Default admin is already in database
+2019-08-27 19:27:27,698 [1] INFO Server.Program - Service successfully started
+2019-08-27 19:27:56,140 [10] INFO Server.Model.LoginService - User with username: slobodan has successfully logged in
+2019-08-27 19:29:14,630 [3] INFO Server.Model.LoginService - User with username: slobodan has successfully logged out
+2019-08-27 19:29:19,531 [1] INFO Server.Program - Service successfully closed
+2019-08-27 19:40:56,429 [1] INFO Server.Program - Default admin is already in database
+2019-08-27 19:40:57,133 [1] INFO Server.Program - Service successfully started
+2019-08-27 19:41:40,527 [9] INFO Server.Model.LoginService - User with username: admin has successfully logged in
+2019-08-27 19:42:07,413 [7] INFO Server.Database.DataRepo - Successfully added item with id: 9
+2019-08-27 19:42:07,418 [7] INFO Server.Model.CurrentConnectionOperations - Updating users with item-changing data
+2019-08-27 19:42:07,447 [7] INFO Server.Model.DataService - Item with id: 9 is successfully added to database
+2019-08-27 19:42:13,844 [7] INFO Server.Database.DataRepo - Item with id: 9 deleted
+2019-08-27 19:42:13,845 [7] INFO Server.Model.CurrentConnectionOperations - Updating users with item-changing data
+2019-08-27 19:42:13,874 [7] INFO Server.Model.DataService - Item with id: 9 is successfully removed to database
+2019-08-27 19:43:07,625 [1] INFO Server.Program - Default admin is already in database
+2019-08-27 19:43:08,014 [1] INFO Server.Program - Service successfully started
+2019-08-27 19:43:34,908 [10] INFO Server.Model.LoginService - User with username: admin has successfully logged in
+2019-08-27 19:43:50,858 [5] INFO Server.Database.DataRepo - Successfully added item with id: 10
+2019-08-27 19:43:50,875 [5] INFO Server.Model.CurrentConnectionOperations - Updating users with item-changing data
+2019-08-27 19:43:50,919 [5] INFO Server.Model.DataService - Item with id: 10 is successfully added to database
+2019-08-27 19:43:56,252 [5] INFO Server.Database.DataRepo - Item with id: 10 deleted
+2019-08-27 19:43:56,253 [5] INFO Server.Model.CurrentConnectionOperations - Updating users with item-changing data
+2019-08-27 19:43:56,265 [5] INFO Server.Model.DataService - Item with id: 10 is successfully removed to database
+2019-08-27 19:45:24,139 [1] INFO Server.Program - Default admin is already in database
+2019-08-27 19:45:24,607 [1] INFO Server.Program - Service successfully started
+2019-08-27 19:46:10,398 [1] INFO Server.Program - Default admin is already in database
+2019-08-27 19:46:10,816 [1] INFO Server.Program - Service successfully started
+2019-08-27 19:46:40,059 [10] INFO Server.Model.LoginService - User with username: admin has successfully logged in
+2019-08-27 19:47:15,118 [8] INFO Server.Database.DataRepo - Successfully added item with id: 11
+2019-08-27 19:47:15,129 [8] INFO Server.Model.CurrentConnectionOperations - Updating users with item-changing data
+2019-08-27 19:47:15,157 [8] INFO Server.Model.DataService - Item with id: 11 is successfully added to database
+2019-08-27 19:51:29,824 [1] INFO Server.Program - Default admin is already in database
+2019-08-27 19:51:30,616 [1] INFO Server.Program - Service successfully started
+2019-08-27 19:52:00,720 [1] INFO Server.Program - Default admin is already in database
+2019-08-27 19:52:01,094 [1] INFO Server.Program - Service successfully started
+2019-08-27 19:53:17,809 [1] INFO Server.Program - Default admin is already in database
+2019-08-27 19:53:18,232 [1] INFO Server.Program - Service successfully started
+2019-08-27 19:53:52,887 [10] INFO Server.Model.LoginService - User with username: admin has successfully logged in
+2019-08-27 19:54:01,747 [8] INFO Server.Database.DataRepo - Item with id: 11 deleted
+2019-08-27 19:54:01,754 [8] INFO Server.Model.CurrentConnectionOperations - Updating users with item-changing data
+2019-08-27 19:54:01,804 [8] INFO Server.Model.DataService - Item with id: 11 is successfully removed to database
+2019-08-27 19:54:09,123 [6] INFO Server.Database.DataRepo - Successfully added item with id: 12
+2019-08-27 19:54:09,124 [6] INFO Server.Model.CurrentConnectionOperations - Updating users with item-changing data
+2019-08-27 19:54:09,142 [6] INFO Server.Model.DataService - Item with id: 12 is successfully added to database
+2019-08-27 19:54:21,506 [8] INFO Server.Database.DataRepo - Item with id: 12 deleted
+2019-08-27 19:54:21,507 [8] INFO Server.Model.CurrentConnectionOperations - Updating users with item-changing data
+2019-08-27 19:54:21,525 [8] INFO Server.Model.DataService - Item with id: 12 is successfully removed to database
+2019-08-27 19:57:21,701 [1] INFO Server.Program - Default admin is already in database
+2019-08-27 19:57:22,487 [1] INFO Server.Program - Service successfully started
+2019-08-27 19:58:06,100 [1] INFO Server.Program - Default admin is already in database
+2019-08-27 19:58:06,485 [1] INFO Server.Program - Service successfully started
+2019-08-27 19:58:36,169 [9] INFO Server.Model.LoginService - User with username: admin has successfully logged in
+2019-08-27 19:59:17,462 [9] INFO Server.Database.DataRepo - Successfully added item with id: 13
+2019-08-27 19:59:17,469 [9] INFO Server.Model.CurrentConnectionOperations - Updating users with item-changing data
+2019-08-27 19:59:17,507 [9] INFO Server.Model.DataService - Item with id: 13 is successfully added to database
+2019-08-27 19:59:23,868 [6] INFO Server.Database.DataRepo - Item with id: 13 deleted
+2019-08-27 19:59:23,869 [6] INFO Server.Model.CurrentConnectionOperations - Updating users with item-changing data
+2019-08-27 19:59:23,880 [6] INFO Server.Model.DataService - Item with id: 13 is successfully removed to database
+2019-08-27 20:08:46,786 [1] INFO Server.Program - Default admin is already in database
+2019-08-27 20:08:47,156 [1] INFO Server.Program - Service successfully started
+2019-08-27 20:09:16,759 [8] INFO Server.Model.LoginService - User with username: admin has successfully logged in
+2019-08-27 20:09:31,660 [9] INFO Server.Database.DataRepo - Successfully added item with id: 14
+2019-08-27 20:09:31,665 [9] INFO Server.Model.CurrentConnectionOperations - Updating users with item-changing data
+2019-08-27 20:09:31,705 [9] INFO Server.Model.DataService - Item with id: 14 is successfully added to database
+2019-08-27 20:10:25,114 [1] INFO Server.Program - Default admin is already in database
+2019-08-27 20:10:25,800 [1] INFO Server.Program - Service successfully started
+2019-08-27 20:10:48,872 [6] INFO Server.Model.LoginService - User with username: admin has successfully logged in
+2019-08-27 20:11:08,496 [8] INFO Server.Database.DataRepo - Item with id: 14 deleted
+2019-08-27 20:11:08,504 [8] INFO Server.Model.CurrentConnectionOperations - Updating users with item-changing data
+2019-08-27 20:11:08,542 [8] INFO Server.Model.DataService - Item with id: 14 is successfully removed to database
+2019-08-27 20:11:16,395 [6] INFO Server.Database.DataRepo - Successfully added item with id: 15
+2019-08-27 20:11:16,397 [6] INFO Server.Model.CurrentConnectionOperations - Updating users with item-changing data
+2019-08-27 20:11:16,398 [6] INFO Server.Model.DataService - Item with id: 15 is successfully added to database
+2019-08-27 20:11:33,353 [13] INFO Server.Database.DataRepo - Item with id: 15 updated
+2019-08-27 20:11:33,457 [13] INFO Server.Model.CurrentConnectionOperations - Updating users with item-changing data
+2019-08-27 20:11:33,460 [13] INFO Server.Model.DataService - Item with id: 15 is successfully updated in database
+2019-08-27 20:11:41,483 [13] INFO Server.Database.DataRepo - Successfully added item with id: 16
+2019-08-27 20:11:41,484 [13] INFO Server.Model.CurrentConnectionOperations - Updating users with item-changing data
+2019-08-27 20:11:41,494 [13] INFO Server.Model.DataService - Item with id: 16 is successfully added to database
+2019-08-27 20:11:46,040 [13] INFO Server.Database.DataRepo - Item with id: 15 deleted
+2019-08-27 20:11:46,041 [13] INFO Server.Model.CurrentConnectionOperations - Updating users with item-changing data
+2019-08-27 20:11:46,056 [13] INFO Server.Model.DataService - Item with id: 15 is successfully removed to database
+2019-08-27 20:11:47,815 [14] INFO Server.Database.DataRepo - Item with id: 16 deleted
+2019-08-27 20:11:47,816 [14] INFO Server.Model.CurrentConnectionOperations - Updating users with item-changing data
+2019-08-27 20:11:47,827 [14] INFO Server.Model.DataService - Item with id: 16 is successfully removed to database
+2019-08-30 16:13:37,050 [1] INFO Server.Program - Default admin is already in database
+2019-08-30 16:13:39,572 [1] INFO Server.Program - Service successfully started
+2019-08-30 16:14:41,890 [5] INFO Server.Model.LoginService - User with username: admin has successfully logged in
+2019-08-30 16:17:01,437 [6] INFO Server.Database.DataRepo - Item with id: 1 updated
+2019-08-30 16:17:01,543 [6] INFO Server.Model.CurrentConnectionOperations - Updating users with item-changing data
+2019-08-30 16:17:01,599 [6] INFO Server.Model.DataService - Item with id: 1 is successfully updated in database
+2019-08-30 16:17:23,287 [6] INFO Server.Database.UsersRepo - Admin with username: admin successfully added user a as Regular user
+2019-08-30 16:17:23,371 [6] INFO Server.Model.CurrentConnectionOperations - Updating users with user-changing data
+2019-08-30 16:17:23,373 [6] INFO Server.Model.UserService - Person with username a successfully added to database
+2019-08-30 16:17:30,570 [10] INFO Server.Database.UsersRepo - Admin with username: admin successfully added user b as Regular user
+2019-08-30 16:17:30,626 [10] INFO Server.Model.CurrentConnectionOperations - Updating users with user-changing data
+2019-08-30 16:17:30,683 [10] INFO Server.Model.UserService - Person with username b successfully added to database
+2019-08-30 16:17:34,041 [6] INFO Server.Model.LoginService - User with username: admin has successfully logged out
+2019-08-30 16:17:41,817 [10] INFO Server.Model.LoginService - User with username: a has successfully logged in
+2019-08-30 16:18:07,685 [18] INFO Server.Model.LoginService - User with username: b has successfully logged in
+2019-08-30 16:19:10,743 [13] INFO Server.Database.DataRepo - Item with id: 2 updated
+2019-08-30 16:19:10,825 [13] INFO Server.Model.CurrentConnectionOperations - Updating users with item-changing data
+2019-08-30 16:19:10,827 [13] INFO Server.Model.DataService - Item with id: 2 is successfully updated in database
+2019-08-30 16:19:19,919 [13] ERROR Server.Model.DataService - Conflict achieved when tried to update item with id 2
+2019-08-30 16:21:01,061 [26] INFO Server.Database.DataRepo - Item with id: 2 updated
+2019-08-30 16:21:01,156 [26] INFO Server.Model.CurrentConnectionOperations - Updating users with item-changing data
+2019-08-30 16:21:01,157 [26] INFO Server.Model.DataService - Item with id: 2 is successfully updated in database
+2019-08-30 16:21:05,301 [29] ERROR Server.Model.DataService - Conflict achieved when tried to update item with id 2
+2019-08-30 16:21:10,528 [26] INFO Server.Database.DataRepo - Item with id: 2 updated
+2019-08-30 16:21:10,581 [26] INFO Server.Model.CurrentConnectionOperations - Updating users with item-changing data
+2019-08-30 16:21:10,620 [26] INFO Server.Model.DataService - Item with id: 2 is successfully updated in database
+2019-08-30 16:21:29,379 [26] ERROR Server.Model.DataService - Conflict achieved when tried to update item with id 2
+2019-08-30 16:21:38,212 [26] INFO Server.Database.DataRepo - Item with id: 2 updated
+2019-08-30 16:21:38,278 [26] INFO Server.Model.CurrentConnectionOperations - Updating users with item-changing data
+2019-08-30 16:21:38,296 [26] INFO Server.Model.DataService - Item with id: 2 is successfully updated in database
+2019-08-30 16:21:45,458 [25] INFO Server.Database.DataRepo - Item with id: 2 updated
+2019-08-30 16:21:45,515 [25] INFO Server.Model.CurrentConnectionOperations - Updating users with item-changing data
+2019-08-30 16:21:45,555 [25] INFO Server.Model.DataService - Item with id: 2 is successfully updated in database
+2019-08-30 16:21:50,296 [26] ERROR Server.Model.DataService - Conflict achieved when tried to update item with id 2
+2019-08-30 16:21:55,020 [26] INFO Server.Database.DataRepo - Item with id: 2 updated
+2019-08-30 16:21:55,073 [26] INFO Server.Model.CurrentConnectionOperations - Updating users with item-changing data
+2019-08-30 16:21:55,075 [26] INFO Server.Model.DataService - Item with id: 2 is successfully updated in database
+2019-08-30 16:22:00,592 [22] INFO Server.Database.DataRepo - Item with id: 2 updated
+2019-08-30 16:22:00,645 [22] INFO Server.Model.CurrentConnectionOperations - Updating users with item-changing data
+2019-08-30 16:22:00,664 [22] INFO Server.Model.DataService - Item with id: 2 is successfully updated in database
+2019-08-30 16:23:21,334 [11] INFO Server.Model.LoginService - User with live session a attempted to login 
+2019-08-30 16:25:30,348 [1] INFO Server.Program - Default admin is already in database
+2019-08-30 16:25:30,908 [1] INFO Server.Program - Service successfully started
+2019-08-30 16:25:51,410 [10] INFO Server.Model.LoginService - User with username: a has successfully logged in
+2019-08-30 16:26:45,161 [7] INFO Server.Database.DataRepo - Item with id: 1 updated
+2019-08-30 16:26:45,273 [7] INFO Server.Model.CurrentConnectionOperations - Updating users with item-changing data
+2019-08-30 16:26:45,327 [7] INFO Server.Model.DataService - Item with id: 1 is successfully updated in database
+2019-08-30 16:27:04,773 [7] INFO Server.Database.DataRepo - Item with id: 1 updated
+2019-08-30 16:27:04,855 [7] INFO Server.Model.CurrentConnectionOperations - Updating users with item-changing data
+2019-08-30 16:27:04,857 [7] INFO Server.Model.DataService - Item with id: 1 is successfully updated in database
+2019-08-30 16:27:13,810 [5] INFO Server.Database.DataRepo - Item with id: 1 updated
+2019-08-30 16:27:13,882 [5] INFO Server.Model.CurrentConnectionOperations - Updating users with item-changing data
+2019-08-30 16:27:13,931 [5] INFO Server.Model.DataService - Item with id: 1 is successfully updated in database
+2019-08-30 16:27:17,987 [7] INFO Server.Database.DataRepo - Item with id: 1 updated
+2019-08-30 16:27:18,061 [7] INFO Server.Model.CurrentConnectionOperations - Updating users with item-changing data
+2019-08-30 16:27:18,104 [7] INFO Server.Model.DataService - Item with id: 1 is successfully updated in database
+2019-08-30 16:27:20,776 [5] INFO Server.Database.DataRepo - Item with id: 1 updated
+2019-08-30 16:27:20,827 [5] INFO Server.Model.CurrentConnectionOperations - Updating users with item-changing data
+2019-08-30 16:27:20,871 [5] INFO Server.Model.DataService - Item with id: 1 is successfully updated in database
+2019-08-30 16:27:23,015 [7] INFO Server.Database.DataRepo - Item with id: 1 updated
+2019-08-30 16:27:23,084 [7] INFO Server.Model.CurrentConnectionOperations - Updating users with item-changing data
+2019-08-30 16:27:23,131 [7] INFO Server.Model.DataService - Item with id: 1 is successfully updated in database
+2019-08-30 16:27:25,779 [5] INFO Server.Database.DataRepo - Item with id: 1 updated
+2019-08-30 16:27:25,843 [5] INFO Server.Model.CurrentConnectionOperations - Updating users with item-changing data
+2019-08-30 16:27:25,909 [5] INFO Server.Model.DataService - Item with id: 1 is successfully updated in database
+2019-08-30 16:27:27,960 [7] INFO Server.Database.DataRepo - Item with id: 1 updated
+2019-08-30 16:27:28,019 [7] INFO Server.Model.CurrentConnectionOperations - Updating users with item-changing data
+2019-08-30 16:27:28,057 [7] INFO Server.Model.DataService - Item with id: 1 is successfully updated in database
+2019-08-30 16:27:29,431 [7] INFO Server.Database.DataRepo - Item with id: 1 updated
+2019-08-30 16:27:29,504 [7] INFO Server.Model.CurrentConnectionOperations - Updating users with item-changing data
+2019-08-30 16:27:29,506 [7] INFO Server.Model.DataService - Item with id: 1 is successfully updated in database
+2019-08-30 16:27:31,885 [7] INFO Server.Database.DataRepo - Item with id: 1 updated
+2019-08-30 16:27:31,937 [7] INFO Server.Model.CurrentConnectionOperations - Updating users with item-changing data
+2019-08-30 16:27:31,938 [7] INFO Server.Model.DataService - Item with id: 1 is successfully updated in database
+2019-08-30 16:27:32,884 [7] INFO Server.Database.DataRepo - Item with id: 1 updated
+2019-08-30 16:27:32,939 [7] INFO Server.Model.CurrentConnectionOperations - Updating users with item-changing data
+2019-08-30 16:27:32,980 [7] INFO Server.Model.DataService - Item with id: 1 is successfully updated in database
+2019-08-30 16:27:33,948 [7] INFO Server.Database.DataRepo - Item with id: 1 updated
+2019-08-30 16:27:34,004 [7] INFO Server.Model.CurrentConnectionOperations - Updating users with item-changing data
+2019-08-30 16:27:34,006 [7] INFO Server.Model.DataService - Item with id: 1 is successfully updated in database
+2019-08-30 16:27:35,828 [3] INFO Server.Database.DataRepo - Item with id: 1 updated
+2019-08-30 16:27:35,890 [3] INFO Server.Model.CurrentConnectionOperations - Updating users with item-changing data
+2019-08-30 16:27:35,935 [3] INFO Server.Model.DataService - Item with id: 1 is successfully updated in database
+2019-08-30 16:27:36,674 [3] INFO Server.Database.DataRepo - Item with id: 1 updated
+2019-08-30 16:27:36,741 [3] INFO Server.Model.CurrentConnectionOperations - Updating users with item-changing data
+2019-08-30 16:27:36,742 [3] INFO Server.Model.DataService - Item with id: 1 is successfully updated in database
+2019-08-30 16:27:37,626 [3] INFO Server.Database.DataRepo - Item with id: 1 updated
+2019-08-30 16:27:37,689 [3] INFO Server.Model.CurrentConnectionOperations - Updating users with item-changing data
+2019-08-30 16:27:37,738 [3] INFO Server.Model.DataService - Item with id: 1 is successfully updated in database
+2019-12-13 13:28:35,151 [1] INFO Server.Program - Default admin is already in database
+2019-12-13 13:28:37,118 [1] INFO Server.Program - Service successfully started
+2019-12-13 13:30:40,996 [1] INFO Server.Program - Default admin is already in database
+2019-12-13 13:30:41,644 [1] INFO Server.Program - Service successfully started

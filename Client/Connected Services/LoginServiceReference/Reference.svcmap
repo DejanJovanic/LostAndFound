@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="bdd0a95a-3dd9-4976-8bf7-3ecdaf385153" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="net.tcp://localhost:4000/ILoginService/mex" Protocol="mex" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="service.wsdl" MetadataType="Wsdl" ID="f1b9359a-1170-47d5-b25f-d21197d57229" SourceId="1" SourceUrl="net.tcp://localhost:4000/ILoginService/mex" />
+    <MetadataFile FileName="service.xsd" MetadataType="Schema" ID="db8ac3a2-cf84-4a83-9673-1212f9ac137f" SourceId="1" SourceUrl="net.tcp://localhost:4000/ILoginService/mex" />
+    <MetadataFile FileName="service1.xsd" MetadataType="Schema" ID="82af7822-0f5b-45ad-bbb5-5abcd6625efb" SourceId="1" SourceUrl="net.tcp://localhost:4000/ILoginService/mex" />
+    <MetadataFile FileName="Server.Model.xsd" MetadataType="Schema" ID="d6ba6011-dbe3-4e97-aee6-ecfba9fba49b" SourceId="1" SourceUrl="net.tcp://localhost:4000/ILoginService/mex" />
+    <MetadataFile FileName="Server.Interfaces.xsd" MetadataType="Schema" ID="caee4f54-5b34-4e1a-bd12-4571cab1d789" SourceId="1" SourceUrl="net.tcp://localhost:4000/ILoginService/mex" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

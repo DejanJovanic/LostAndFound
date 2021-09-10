@@ -1,0 +1,83 @@
+﻿<UserControl x:Class="Client.View.MainView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:Client.View"
+        
+             xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+             mc:Ignorable="d" 
+             d:DesignHeight="450" d:DesignWidth="1000">
+    <Grid>
+        <materialDesign:DialogHost CloseOnClickAway="True"  Identifier="MainDialog">
+            <StackPanel Orientation="Vertical">
+                <Menu HorizontalAlignment="Stretch" Style="{StaticResource MaterialDesignMenu}" Margin="0 0 0 15">
+                    <Menu.ItemsPanel>
+                        <ItemsPanelTemplate>
+                            <DockPanel HorizontalAlignment="Stretch"/>
+                        </ItemsPanelTemplate>
+                    </Menu.ItemsPanel>
+                    <MenuItem
+                            Command="{Binding SelectItemsCommand}"
+                            Style="{StaticResource MaterialDesignMenuItem}"
+                            IsEnabled="True"
+                            ToolTip="Items list">
+                        <MenuItem.Header>
+                            <materialDesign:PackIcon
+                                    Width="36"
+                                    Height="36"
+                                    HorizontalAlignment="Center"
+                                    VerticalAlignment="Center"
+                                    Kind="ViewList" />
+                        </MenuItem.Header>
+                    </MenuItem>
+                    <MenuItem
+                            Command="{Binding SelectPersonsCommand}"
+                            Style="{StaticResource MaterialDesignMenuItem}" 
+                            IsEnabled="True"
+                            ToolTip="Person list">
+                        <MenuItem.Header>
+                            <materialDesign:PackIcon
+                                    Width="36"
+                                    Height="36"
+                                    HorizontalAlignment="Center"
+                                    VerticalAlignment="Center"
+                                    Kind="AccountDetails" />
+                        </MenuItem.Header>
+                    </MenuItem>
+                    <MenuItem
+                            Command="{Binding SelectLogCommand}"
+                            Style="{StaticResource MaterialDesignMenuItem}"
+                            ToolTip="Log">
+                        <MenuItem.Header>
+                            <materialDesign:PackIcon
+                                    Width="36"
+                                    Height="36"
+                                    HorizontalAlignment="Center"
+                                    VerticalAlignment="Center"
+                                    Kind="FileDocumentBoxOutline" />
+                        </MenuItem.Header>
+                    </MenuItem>
+                    <MenuItem
+                            Command="{Binding LogoutCommand}"
+                            Style="{StaticResource MaterialDesignMenuItem}"
+                        HorizontalAlignment="Right"
+                            ToolTip="Logout">
+                        <MenuItem.Header>
+                            <materialDesign:PackIcon
+                                    Width="36"
+                                    Height="36"
+                                    HorizontalAlignment="Center"
+                                    VerticalAlignment="Center"
+                                    Kind="Logout" />
+                        </MenuItem.Header>
+                    </MenuItem>
+                </Menu>
+                <Grid>
+                    <ContentControl  Content="{Binding CurrentViewModel}"/>
+                </Grid>
+
+            </StackPanel>
+        </materialDesign:DialogHost>
+    </Grid>
+</UserControl>

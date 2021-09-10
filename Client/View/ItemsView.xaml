@@ -1,0 +1,150 @@
+﻿<UserControl x:Class="Client.View.ItemsView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:Client.View"
+             xmlns:model="clr-namespace:Client.Model"
+             xmlns:vm="clr-namespace:Client.ViewModel"
+            
+             xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+             mc:Ignorable="d" 
+             d:DesignHeight="450" d:DesignWidth="1000">
+    <UserControl.Resources>
+        <materialDesign:BooleanToVisibilityConverter x:Key="visibilityConverter"/>
+        <vm:BoolToBrush x:Key="boolToBrush"/>
+    </UserControl.Resources>
+    <StackPanel Orientation="Vertical">
+            <Expander 
+    HorizontalAlignment="Stretch"
+    Header="Search">
+                <StackPanel
+      Orientation="Vertical"
+      TextBlock.Foreground="{DynamicResource MaterialDesignBody}"
+      Margin="24,8,24,16">
+                <TextBox
+                    Width="200"
+                    HorizontalAlignment="Center"
+                    VerticalAlignment="Center"
+                    materialDesign:HintAssist.Hint="Title"
+                    Text="{Binding Title}"
+                    TextWrapping="Wrap" />
+                <TextBox
+                    Width="200"
+                    HorizontalAlignment="Center"
+                    VerticalAlignment="Center"
+                    materialDesign:HintAssist.Hint="Location"
+                     PreviewTextInput="NumberValidationTextBox"
+                    Text="{Binding Location}"
+                    TextWrapping="Wrap" />
+                <TextBox
+                    Width="200"
+                    HorizontalAlignment="Center"
+                    VerticalAlignment="Center"
+                    materialDesign:HintAssist.Hint="Description"
+                    Text="{Binding Description}"
+                    TextWrapping="Wrap" />
+                <DatePicker SelectedDate="{Binding Datetime}" Width="200" />
+                <CheckBox IsChecked="{Binding IsCheckedLocation}">Use location</CheckBox>
+                <CheckBox IsChecked="{Binding IsCheckedDate}">Use date</CheckBox>
+                <Button  VerticalAlignment="Center" Command="{Binding SearchItemCommand}"   Width="128" Content="Search"/>
+            </StackPanel>
+            </Expander>
+            <DockPanel DockPanel.Dock="Top" LastChildFill="False">
+            <Button DockPanel.Dock="Left" VerticalAlignment="Center" Command="{Binding UndoItemCommand}" IsEnabled="{Binding IsUndoAvailable}"   Width="80">
+                <materialDesign:PackIcon Kind="UndoVariant" />
+            </Button>
+            <Button DockPanel.Dock="Left"  VerticalAlignment="Center" Command="{Binding RedoItemCommand}"  IsEnabled="{Binding IsRedoAvailable}"   Width="80">
+                <materialDesign:PackIcon Kind="RedoVariant" />
+            </Button>
+            <Button DockPanel.Dock="Right"  VerticalAlignment="Center" Command="{Binding AddItemCommand}"   Width="128" Content="Add item"/>
+            </DockPanel>
+            <DataGrid ItemsSource="{Binding Items}" 
+                      CanUserSortColumns="True"
+                      VerticalScrollBarVisibility="Auto"
+  CanUserAddRows="False"
+  AutoGenerateColumns="False"
+                      Height="300"
+  materialDesign:DataGridAssist.CellPadding="13 8 8 8"
+  materialDesign:DataGridAssist.ColumnHeaderPadding="8" IsReadOnly="True">
+            <DataGrid.Columns>
+                <materialDesign:MaterialDataGridTextColumn
+      Binding="{Binding ID}"
+      Header="ID"
+      MaxLength="255" />
+                <materialDesign:MaterialDataGridTextColumn
+      Binding="{Binding Title}"
+      Header="Title"
+      MaxLength="255" />
+
+                    <materialDesign:MaterialDataGridTextColumn
+      Binding="{Binding DateTime, StringFormat=d}"
+      Header="Date"
+      MaxLength="255"
+    />
+                    <materialDesign:MaterialDataGridTextColumn
+      Binding="{Binding Description}"
+      Header="Description"
+      MaxLength="255"
+  />
+                    <materialDesign:MaterialDataGridTextColumn
+      Binding="{Binding Location}"
+      Header="Location"
+      MaxLength="255"
+  />
+                <materialDesign:MaterialDataGridTextColumn
+      Binding="{Binding Finder}"
+      Header="Finder"
+      MaxLength="255"
+  />
+                <materialDesign:MaterialDataGridTextColumn
+      Binding="{Binding Owner}"
+      Header="Owner"
+      MaxLength="255"
+  />
+                <DataGridTemplateColumn>
+                    <DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                            <Button Command="{Binding Path=DataContext.RemoveItemCommand,RelativeSource={RelativeSource AncestorType={x:Type DataGrid}}}"
+         CommandParameter="{Binding}" >Delete</Button>
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellTemplate>
+                </DataGridTemplateColumn>
+                <DataGridTemplateColumn>
+                    <DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                            <Button Command="{Binding Path=DataContext.EditItemCommand,RelativeSource={RelativeSource AncestorType={x:Type DataGrid}}}"
+         CommandParameter="{Binding}" >Edit</Button>
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellTemplate>
+                </DataGridTemplateColumn>
+                <DataGridTemplateColumn>
+                    <DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                            <Button Command="{Binding Path=DataContext.DuplicateItemCommand,RelativeSource={RelativeSource AncestorType={x:Type DataGrid}}}"
+         CommandParameter="{Binding}" >Duplicate</Button>
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellTemplate>
+                </DataGridTemplateColumn>
+                <DataGridTemplateColumn>
+                    <DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                            <Button  Visibility="{Binding CanBeOwner, Converter={StaticResource visibilityConverter}}"
+                                Command="{Binding Path=DataContext.FoundItemCommand,RelativeSource={RelativeSource AncestorType={x:Type DataGrid}}}"
+         CommandParameter="{Binding}" >Mine!</Button>
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellTemplate>
+                </DataGridTemplateColumn>
+            </DataGrid.Columns>
+            <DataGrid.ItemContainerStyle>
+                <Style TargetType="{x:Type DataGridRow}">
+                    <Setter Property="Background" Value="{Binding IsFound,Converter={StaticResource boolToBrush}}"/>
+                </Style>
+            </DataGrid.ItemContainerStyle>
+            </DataGrid>
+            <DockPanel VerticalAlignment="Bottom">
+                <materialDesign:Snackbar MessageQueue="{Binding SnackbarQueue}" />
+            </DockPanel>
+        </StackPanel>
+   
+</UserControl>

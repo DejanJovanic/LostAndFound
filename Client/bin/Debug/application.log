@@ -1,0 +1,224 @@
+2019-08-27 11:34:20,164 [1] INFO Client.ViewModel.MainWindowViewModel - Application started
+2019-08-27 11:34:53,436 [6] INFO Client.Model.LoginUpdateService - User successfully logged in
+2019-08-27 11:41:15,350 [1] INFO Client.ViewModel.MainWindowViewModel - Application started
+2019-08-27 11:41:40,842 [6] INFO Client.Model.LoginUpdateService - User successfully logged in
+2019-08-27 11:45:11,047 [1] INFO Client.ViewModel.MainWindowViewModel - Application started
+2019-08-27 11:45:33,360 [6] INFO Client.Model.LoginUpdateService - User successfully logged in
+2019-08-27 11:47:35,762 [1] INFO Client.ViewModel.MainWindowViewModel - Application started
+2019-08-27 11:47:46,167 [6] INFO Client.Model.LoginUpdateService - User successfully logged in
+2019-08-27 11:48:14,316 [11] INFO Client.Model.LoginUpdateService - User successfully logged out
+2019-08-27 11:50:23,517 [1] INFO Client.ViewModel.MainWindowViewModel - Application started
+2019-08-27 11:50:36,170 [6] INFO Client.Model.LoginUpdateService - User successfully logged in
+2019-08-27 11:51:14,132 [6] INFO Client.Model.LoginUpdateService - User successfully logged out
+2019-08-27 12:05:47,855 [1] INFO Client.ViewModel.MainWindowViewModel - Application started
+2019-08-27 12:05:58,152 [6] INFO Client.Model.LoginUpdateService - User successfully logged in
+2019-08-27 12:07:07,910 [12] INFO Client.Model.LoginUpdateService - User successfully logged out
+2019-08-27 12:07:39,758 [1] INFO Client.ViewModel.MainWindowViewModel - Application started
+2019-08-27 12:10:09,380 [4] INFO Client.Model.LoginUpdateService - User successfully logged in
+2019-08-27 12:10:55,101 [11] INFO Client.Model.PersonService - User with username: dejan successfully added
+2019-08-27 12:10:55,125 [10] INFO Client.Model.LoginUpdateService - Added User with username: dejan
+2019-08-27 12:11:08,987 [3] INFO Client.Model.LoginUpdateService - Added User with username: tijana
+2019-08-27 12:11:09,018 [4] INFO Client.Model.PersonService - User with username: tijana successfully added
+2019-08-27 12:11:32,143 [11] INFO Client.Model.PersonService - User with username: gordana successfully added
+2019-08-27 12:11:32,184 [3] INFO Client.Model.LoginUpdateService - Added User with username: gordana
+2019-08-27 12:11:44,774 [10] INFO Client.Model.LoginUpdateService - Added User with username: slobodan
+2019-08-27 12:11:44,786 [11] INFO Client.Model.PersonService - User with username: slobodan successfully added
+2019-08-27 12:11:59,687 [1] INFO Client.ViewModel.MainWindowViewModel - Application started
+2019-08-27 12:12:08,696 [6] INFO Client.Model.LoginUpdateService - User successfully logged in
+2019-08-27 12:12:22,546 [1] INFO Client.ViewModel.MainWindowViewModel - Application started
+2019-08-27 12:12:31,761 [6] INFO Client.Model.LoginUpdateService - User successfully logged in
+2019-08-27 12:12:50,922 [5] INFO Client.Model.DataService - Item with id: 1 successfully added to database
+2019-08-27 12:12:50,927 [10] INFO Client.Model.LoginUpdateService - Added item with id: 1
+2019-08-27 12:12:50,989 [3] INFO Client.Model.LoginUpdateService - Added item with id: 1
+2019-08-27 12:13:35,109 [11] INFO Client.Model.DataService - Item with id: 2 successfully added to database
+2019-08-27 12:13:35,165 [14] INFO Client.Model.LoginUpdateService - Added item with id: 2
+2019-08-27 12:13:35,166 [10] INFO Client.Model.LoginUpdateService - Added item with id: 2
+2019-08-27 12:14:07,432 [6] INFO Client.Model.DataService - Item with id: 3 successfully added to database
+2019-08-27 12:14:07,480 [10] INFO Client.Model.LoginUpdateService - Added item with id: 3
+2019-08-27 12:14:07,495 [15] INFO Client.Model.LoginUpdateService - Added item with id: 3
+2019-08-27 12:14:14,763 [4] INFO Client.Model.LoginUpdateService - Updated item with id: 2
+2019-08-27 12:14:14,769 [14] INFO Client.Model.LoginUpdateService - Updated item with id: 2
+2019-08-27 12:14:14,773 [6] INFO Client.Model.DataService - Item with id: 2 successfully updated in database
+2019-08-27 12:16:26,757 [3] INFO Client.Model.LoginUpdateService - User successfully logged out
+2019-08-27 12:16:30,470 [11] INFO Client.Model.LoginUpdateService - User successfully logged out
+2019-08-27 12:18:56,157 [1] INFO Client.ViewModel.MainWindowViewModel - Application started
+2019-08-27 12:19:05,684 [6] INFO Client.Model.LoginUpdateService - User successfully logged in
+2019-08-27 12:19:25,144 [13] INFO Client.Model.LoginUpdateService - User successfully logged out
+2019-08-27 12:19:30,993 [14] INFO Client.Model.LoginUpdateService - User successfully logged in
+2019-08-27 12:20:02,838 [3] INFO Client.Model.LoginUpdateService - User successfully logged out
+2019-08-27 12:20:13,006 [18] INFO Client.Model.LoginUpdateService - User successfully logged in
+2019-08-27 12:21:07,803 [1] INFO Client.ViewModel.MainWindowViewModel - Application started
+2019-08-27 12:21:15,559 [6] INFO Client.Model.LoginUpdateService - User successfully logged in
+2019-08-27 12:21:30,057 [1] INFO Client.ViewModel.MainWindowViewModel - Application started
+2019-08-27 12:21:38,316 [6] INFO Client.Model.LoginUpdateService - User successfully logged in
+2019-08-27 12:24:50,903 [4] INFO Client.Model.LoginUpdateService - User successfully logged out
+2019-08-27 12:24:52,761 [11] INFO Client.Model.LoginUpdateService - User successfully logged out
+2019-08-27 15:59:07,845 [1] INFO Client.ViewModel.MainWindowViewModel - Application started
+2019-08-27 15:59:31,130 [6] INFO Client.Model.LoginUpdateService - User successfully logged in
+2019-08-27 16:01:06,641 [12] INFO Client.Model.DataService - Item with id: 4 successfully added to database
+2019-08-27 16:01:06,682 [4] INFO Client.Model.LoginUpdateService - Added item with id: 4
+2019-08-27 16:01:14,325 [4] INFO Client.Model.LoginUpdateService - Updated item with id: 3
+2019-08-27 16:01:14,342 [15] INFO Client.Model.DataService - Item with id: 3 successfully updated in database
+2019-08-27 16:01:30,160 [12] INFO Client.Model.PersonService - User with username: aaa successfully added
+2019-08-27 16:01:30,189 [11] INFO Client.Model.LoginUpdateService - Added User with username: aaa
+2019-08-27 16:02:48,232 [18] INFO Client.Model.LoginUpdateService - User successfully logged out
+2019-08-27 16:02:52,377 [21] INFO Client.Model.LoginUpdateService - User successfully logged in
+2019-08-27 16:03:01,789 [19] INFO Client.Model.LoginUpdateService - Added item with id: 5
+2019-08-27 16:03:01,814 [22] INFO Client.Model.DataService - Item with id: 5 successfully added to database
+2019-08-27 16:03:11,604 [23] INFO Client.Model.LoginUpdateService - User successfully logged out
+2019-08-27 16:03:16,399 [23] INFO Client.Model.LoginUpdateService - User successfully logged in
+2019-08-27 16:03:22,182 [15] INFO Client.Model.LoginUpdateService - User successfully logged out
+2019-08-27 16:03:27,794 [15] INFO Client.Model.LoginUpdateService - User successfully logged in
+2019-08-27 16:03:33,678 [27] INFO Client.Model.LoginUpdateService - User successfully logged out
+2019-08-27 16:03:39,156 [27] INFO Client.Model.LoginUpdateService - User successfully logged in
+2019-08-27 16:03:47,652 [28] INFO Client.Model.DataService - Item with id: 6 successfully added to database
+2019-08-27 16:03:47,721 [19] INFO Client.Model.LoginUpdateService - Added item with id: 6
+2019-08-27 16:03:49,847 [28] INFO Client.Model.LoginUpdateService - User successfully logged out
+2019-08-27 16:03:54,195 [28] INFO Client.Model.LoginUpdateService - User successfully logged in
+2019-08-27 16:03:59,028 [19] INFO Client.Model.LoginUpdateService - Updated item with id: 6
+2019-08-27 16:03:59,062 [33] INFO Client.Model.DataService - Item with id: 6 successfully updated in database
+2019-08-27 16:04:02,340 [31] INFO Client.Model.LoginUpdateService - User successfully logged out
+2019-08-27 16:04:06,386 [33] INFO Client.Model.LoginUpdateService - User successfully logged in
+2019-08-27 16:04:16,859 [20] INFO Client.Model.LoginUpdateService - Removed user with username: aaa
+2019-08-27 16:04:16,892 [20] INFO Client.Model.LoginUpdateService - Updated item with id: 6
+2019-08-27 16:04:16,895 [20] INFO Client.Model.LoginUpdateService - Removed item with id: 5
+2019-08-27 16:04:16,905 [34] INFO Client.Model.PersonService - User with username: aaa successfully removed
+2019-08-27 16:04:38,338 [29] INFO Client.Model.DataService - Item with id: 7 successfully added to database
+2019-08-27 16:04:38,363 [20] INFO Client.Model.LoginUpdateService - Added item with id: 7
+2019-08-27 16:04:44,023 [20] INFO Client.Model.LoginUpdateService - Removed item with id: 6
+2019-08-27 16:04:44,048 [29] INFO Client.Model.DataService - Item with id: 6 successfully removed from database
+2019-08-27 16:04:45,624 [20] INFO Client.Model.LoginUpdateService - Removed item with id: 7
+2019-08-27 16:04:45,639 [29] INFO Client.Model.DataService - Item with id: 7 successfully removed from database
+2019-08-27 16:04:54,323 [20] INFO Client.Model.LoginUpdateService - Updated item with id: 4
+2019-08-27 16:04:54,347 [29] INFO Client.Model.DataService - Item with id: 4 successfully updated in database
+2019-08-27 16:04:59,231 [20] INFO Client.Model.LoginUpdateService - Removed item with id: 4
+2019-08-27 16:04:59,250 [29] INFO Client.Model.DataService - Item with id: 4 successfully removed from database
+2019-08-27 16:05:08,932 [29] INFO Client.Model.LoginUpdateService - User successfully logged out
+2019-08-27 18:45:50,052 [1] INFO Client.ViewModel.MainWindowViewModel - Application started
+2019-08-27 18:46:06,241 [6] INFO Client.Model.LoginUpdateService - User successfully logged in
+2019-08-27 18:46:58,504 [1] INFO Client.ViewModel.MainWindowViewModel - Application started
+2019-08-27 18:47:08,449 [6] INFO Client.Model.LoginUpdateService - User successfully logged in
+2019-08-27 18:47:39,600 [12] INFO Client.Model.DataService - Item with id: 8 successfully added to database
+2019-08-27 18:47:39,630 [10] INFO Client.Model.LoginUpdateService - Added item with id: 8
+2019-08-27 18:47:39,631 [3] INFO Client.Model.LoginUpdateService - Added item with id: 8
+2019-08-27 19:27:46,319 [1] INFO Client.ViewModel.MainWindowViewModel - Application started
+2019-08-27 19:27:56,074 [6] INFO Client.Model.LoginUpdateService - User successfully logged in
+2019-08-27 19:29:14,624 [13] INFO Client.Model.LoginUpdateService - User successfully logged out
+2019-08-27 19:41:29,138 [1] INFO Client.ViewModel.MainWindowViewModel - Application started
+2019-08-27 19:41:40,288 [6] INFO Client.Model.LoginUpdateService - User successfully logged in
+2019-08-27 19:42:07,477 [6] INFO Client.Model.DataService - Item with id: 9 successfully added to database
+2019-08-27 19:42:07,515 [3] INFO Client.Model.LoginUpdateService - Added item with id: 9
+2019-08-27 19:42:13,863 [3] INFO Client.Model.LoginUpdateService - Removed item with id: 9
+2019-08-27 19:42:13,891 [6] INFO Client.Model.DataService - Item with id: 9 successfully removed from database
+2019-08-27 19:43:25,485 [1] INFO Client.ViewModel.MainWindowViewModel - Application started
+2019-08-27 19:43:34,741 [6] INFO Client.Model.LoginUpdateService - User successfully logged in
+2019-08-27 19:43:50,943 [13] INFO Client.Model.DataService - Item with id: 10 successfully added to database
+2019-08-27 19:43:50,965 [4] INFO Client.Model.LoginUpdateService - Added item with id: 10
+2019-08-27 19:43:56,272 [3] INFO Client.Model.LoginUpdateService - Removed item with id: 10
+2019-08-27 19:43:56,279 [13] INFO Client.Model.DataService - Item with id: 10 successfully removed from database
+2019-08-27 19:46:29,471 [1] INFO Client.ViewModel.MainWindowViewModel - Application started
+2019-08-27 19:46:39,907 [6] INFO Client.Model.LoginUpdateService - User successfully logged in
+2019-08-27 19:47:15,235 [3] INFO Client.Model.LoginUpdateService - Added item with id: 11
+2019-08-27 19:47:15,318 [11] INFO Client.Model.DataService - Item with id: 11 successfully added to database
+2019-08-27 19:53:33,113 [1] INFO Client.ViewModel.MainWindowViewModel - Application started
+2019-08-27 19:53:52,696 [6] INFO Client.Model.LoginUpdateService - User successfully logged in
+2019-08-27 19:54:01,826 [13] INFO Client.Model.DataService - Item with id: 11 successfully removed from database
+2019-08-27 19:54:01,877 [12] INFO Client.Model.LoginUpdateService - Removed item with id: 11
+2019-08-27 19:54:09,136 [3] INFO Client.Model.LoginUpdateService - Added item with id: 12
+2019-08-27 19:54:09,157 [11] INFO Client.Model.DataService - Item with id: 12 successfully added to database
+2019-08-27 19:54:21,513 [3] INFO Client.Model.LoginUpdateService - Removed item with id: 12
+2019-08-27 19:54:21,532 [18] INFO Client.Model.DataService - Item with id: 12 successfully removed from database
+2019-08-27 19:58:27,048 [1] INFO Client.ViewModel.MainWindowViewModel - Application started
+2019-08-27 19:58:35,998 [6] INFO Client.Model.LoginUpdateService - User successfully logged in
+2019-08-27 19:59:17,568 [17] INFO Client.Model.DataService - Item with id: 13 successfully added to database
+2019-08-27 19:59:17,603 [3] INFO Client.Model.LoginUpdateService - Added item with id: 13
+2019-08-27 19:59:23,882 [13] INFO Client.Model.LoginUpdateService - Removed item with id: 13
+2019-08-27 19:59:23,894 [11] INFO Client.Model.DataService - Item with id: 13 successfully removed from database
+2019-08-27 20:09:08,272 [1] INFO Client.ViewModel.MainWindowViewModel - Application started
+2019-08-27 20:09:16,613 [7] INFO Client.Model.LoginUpdateService - User successfully logged in
+2019-08-27 20:09:31,755 [7] INFO Client.Model.DataService - Item with id: 14 successfully added to database
+2019-08-27 20:09:31,766 [6] INFO Client.Model.LoginUpdateService - Added item with id: 14
+2019-08-27 20:10:40,135 [1] INFO Client.ViewModel.MainWindowViewModel - Application started
+2019-08-27 20:10:48,705 [7] INFO Client.Model.LoginUpdateService - User successfully logged in
+2019-08-27 20:11:08,565 [14] INFO Client.Model.DataService - Item with id: 14 successfully removed from database
+2019-08-27 20:11:08,588 [3] INFO Client.Model.LoginUpdateService - Removed item with id: 14
+2019-08-27 20:11:16,406 [4] INFO Client.Model.DataService - Item with id: 15 successfully added to database
+2019-08-27 20:11:16,423 [6] INFO Client.Model.LoginUpdateService - Added item with id: 15
+2019-08-27 20:11:33,495 [16] INFO Client.Model.DataService - Item with id: 15 successfully updated in database
+2019-08-27 20:11:33,509 [19] INFO Client.Model.LoginUpdateService - Updated item with id: 15
+2019-08-27 20:11:41,492 [13] INFO Client.Model.LoginUpdateService - Added item with id: 16
+2019-08-27 20:11:41,508 [4] INFO Client.Model.DataService - Item with id: 16 successfully added to database
+2019-08-27 20:11:46,059 [13] INFO Client.Model.LoginUpdateService - Removed item with id: 15
+2019-08-27 20:11:46,064 [4] INFO Client.Model.DataService - Item with id: 15 successfully removed from database
+2019-08-27 20:11:47,821 [13] INFO Client.Model.LoginUpdateService - Removed item with id: 16
+2019-08-27 20:11:47,834 [23] INFO Client.Model.DataService - Item with id: 16 successfully removed from database
+2019-08-30 16:14:24,156 [1] INFO Client.ViewModel.MainWindowViewModel - Application started
+2019-08-30 16:14:41,552 [5] INFO Client.Model.LoginUpdateService - User successfully logged in
+2019-08-30 16:17:01,648 [15] INFO Client.Model.DataService - Item with id: 1 successfully updated in database
+2019-08-30 16:17:01,689 [3] INFO Client.Model.LoginUpdateService - Updated item with id: 1
+2019-08-30 16:17:23,390 [13] INFO Client.Model.PersonService - User with username: a successfully added
+2019-08-30 16:17:23,422 [18] INFO Client.Model.LoginUpdateService - Added User with username: a
+2019-08-30 16:17:30,653 [17] INFO Client.Model.LoginUpdateService - Added User with username: b
+2019-08-30 16:17:30,694 [13] INFO Client.Model.PersonService - User with username: b successfully added
+2019-08-30 16:17:34,027 [24] INFO Client.Model.LoginUpdateService - User successfully logged out
+2019-08-30 16:17:41,769 [23] INFO Client.Model.LoginUpdateService - User successfully logged in
+2019-08-30 16:17:53,020 [1] INFO Client.ViewModel.MainWindowViewModel - Application started
+2019-08-30 16:18:07,605 [5] INFO Client.Model.LoginUpdateService - User successfully logged in
+2019-08-30 16:19:10,873 [5] INFO Client.Model.DataService - Item with id: 2 successfully updated in database
+2019-08-30 16:19:10,925 [3] INFO Client.Model.LoginUpdateService - Updated item with id: 2
+2019-08-30 16:19:10,949 [12] INFO Client.Model.LoginUpdateService - Updated item with id: 2
+2019-08-30 16:19:19,929 [14] ERROR Client.Model.DataService - Conflict achieved when tried to update item
+2019-08-30 16:21:01,179 [16] INFO Client.Model.DataService - Item with id: 2 successfully updated in database
+2019-08-30 16:21:01,199 [18] INFO Client.Model.LoginUpdateService - Updated item with id: 2
+2019-08-30 16:21:01,208 [17] INFO Client.Model.LoginUpdateService - Updated item with id: 2
+2019-08-30 16:21:05,311 [3] ERROR Client.Model.DataService - Conflict achieved when tried to update item
+2019-08-30 16:21:10,589 [3] INFO Client.Model.LoginUpdateService - Updated item with id: 2
+2019-08-30 16:21:10,591 [18] INFO Client.Model.LoginUpdateService - Updated item with id: 2
+2019-08-30 16:21:10,631 [3] INFO Client.Model.DataService - Item with id: 2 successfully updated in database
+2019-08-30 16:21:29,390 [22] ERROR Client.Model.DataService - Conflict achieved when tried to update item
+2019-08-30 16:21:38,310 [22] INFO Client.Model.DataService - Item with id: 2 successfully updated in database
+2019-08-30 16:21:38,358 [28] INFO Client.Model.LoginUpdateService - Updated item with id: 2
+2019-08-30 16:21:45,526 [3] INFO Client.Model.LoginUpdateService - Updated item with id: 2
+2019-08-30 16:21:45,529 [18] INFO Client.Model.LoginUpdateService - Updated item with id: 2
+2019-08-30 16:21:45,565 [24] INFO Client.Model.DataService - Item with id: 2 successfully updated in database
+2019-08-30 16:21:50,314 [24] ERROR Client.Model.DataService - Conflict achieved when tried to update item
+2019-08-30 16:21:55,087 [18] INFO Client.Model.LoginUpdateService - Updated item with id: 2
+2019-08-30 16:21:55,088 [3] INFO Client.Model.LoginUpdateService - Updated item with id: 2
+2019-08-30 16:21:55,099 [26] INFO Client.Model.DataService - Item with id: 2 successfully updated in database
+2019-08-30 16:22:00,651 [3] INFO Client.Model.LoginUpdateService - Updated item with id: 2
+2019-08-30 16:22:00,673 [22] INFO Client.Model.DataService - Item with id: 2 successfully updated in database
+2019-08-30 16:22:00,688 [31] INFO Client.Model.LoginUpdateService - Updated item with id: 2
+2019-08-30 16:22:55,312 [1] INFO Client.ViewModel.MainWindowViewModel - Application started
+2019-08-30 16:23:20,786 [5] INFO Client.Model.LoginUpdateService - User successfully logged in
+2019-08-30 16:25:42,067 [1] INFO Client.ViewModel.MainWindowViewModel - Application started
+2019-08-30 16:25:51,193 [5] INFO Client.Model.LoginUpdateService - User successfully logged in
+2019-08-30 16:26:45,385 [12] INFO Client.Model.DataService - Item with id: 1 successfully updated in database
+2019-08-30 16:26:45,426 [18] INFO Client.Model.LoginUpdateService - Updated item with id: 1
+2019-08-30 16:27:04,890 [18] INFO Client.Model.LoginUpdateService - Updated item with id: 1
+2019-08-30 16:27:04,922 [17] INFO Client.Model.DataService - Item with id: 1 successfully updated in database
+2019-08-30 16:27:13,902 [18] INFO Client.Model.LoginUpdateService - Updated item with id: 1
+2019-08-30 16:27:13,942 [21] INFO Client.Model.DataService - Item with id: 1 successfully updated in database
+2019-08-30 16:27:18,082 [18] INFO Client.Model.LoginUpdateService - Updated item with id: 1
+2019-08-30 16:27:18,113 [17] INFO Client.Model.DataService - Item with id: 1 successfully updated in database
+2019-08-30 16:27:20,833 [18] INFO Client.Model.LoginUpdateService - Updated item with id: 1
+2019-08-30 16:27:20,889 [17] INFO Client.Model.DataService - Item with id: 1 successfully updated in database
+2019-08-30 16:27:23,097 [18] INFO Client.Model.LoginUpdateService - Updated item with id: 1
+2019-08-30 16:27:23,148 [17] INFO Client.Model.DataService - Item with id: 1 successfully updated in database
+2019-08-30 16:27:25,852 [11] INFO Client.Model.LoginUpdateService - Updated item with id: 1
+2019-08-30 16:27:25,919 [17] INFO Client.Model.DataService - Item with id: 1 successfully updated in database
+2019-08-30 16:27:28,032 [11] INFO Client.Model.LoginUpdateService - Updated item with id: 1
+2019-08-30 16:27:28,069 [17] INFO Client.Model.DataService - Item with id: 1 successfully updated in database
+2019-08-30 16:27:29,511 [18] INFO Client.Model.LoginUpdateService - Updated item with id: 1
+2019-08-30 16:27:29,533 [17] INFO Client.Model.DataService - Item with id: 1 successfully updated in database
+2019-08-30 16:27:31,955 [17] INFO Client.Model.DataService - Item with id: 1 successfully updated in database
+2019-08-30 16:27:31,957 [22] INFO Client.Model.LoginUpdateService - Updated item with id: 1
+2019-08-30 16:27:32,945 [22] INFO Client.Model.LoginUpdateService - Updated item with id: 1
+2019-08-30 16:27:32,990 [17] INFO Client.Model.DataService - Item with id: 1 successfully updated in database
+2019-08-30 16:27:34,011 [18] INFO Client.Model.LoginUpdateService - Updated item with id: 1
+2019-08-30 16:27:34,014 [17] INFO Client.Model.DataService - Item with id: 1 successfully updated in database
+2019-08-30 16:27:35,896 [18] INFO Client.Model.LoginUpdateService - Updated item with id: 1
+2019-08-30 16:27:35,944 [17] INFO Client.Model.DataService - Item with id: 1 successfully updated in database
+2019-08-30 16:27:36,748 [11] INFO Client.Model.LoginUpdateService - Updated item with id: 1
+2019-08-30 16:27:36,752 [17] INFO Client.Model.DataService - Item with id: 1 successfully updated in database
+2019-08-30 16:27:37,696 [18] INFO Client.Model.LoginUpdateService - Updated item with id: 1
+2019-08-30 16:27:37,747 [17] INFO Client.Model.DataService - Item with id: 1 successfully updated in database

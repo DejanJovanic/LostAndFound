@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="030e169a-0090-4e8d-a3eb-a142f92c712a" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="net.tcp://localhost:4002/IUserService/mex" Protocol="mex" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="service.wsdl" MetadataType="Wsdl" ID="a69a80f8-c07c-4954-8844-5d26763b51cb" SourceId="1" SourceUrl="net.tcp://localhost:4002/IUserService/mex" />
+    <MetadataFile FileName="service.xsd" MetadataType="Schema" ID="3e2fcaa2-d81d-4475-bdcd-80be55aff883" SourceId="1" SourceUrl="net.tcp://localhost:4002/IUserService/mex" />
+    <MetadataFile FileName="Server.Model.xsd" MetadataType="Schema" ID="4b28ba6b-1e81-4e74-9f01-1dfcac170b76" SourceId="1" SourceUrl="net.tcp://localhost:4002/IUserService/mex" />
+    <MetadataFile FileName="service1.xsd" MetadataType="Schema" ID="4abfcbda-8af7-491f-97b6-38873c5fcd71" SourceId="1" SourceUrl="net.tcp://localhost:4002/IUserService/mex" />
+    <MetadataFile FileName="Server.Interfaces.xsd" MetadataType="Schema" ID="0c58be60-544b-4b60-b6c0-fe5410a747f6" SourceId="1" SourceUrl="net.tcp://localhost:4002/IUserService/mex" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>
